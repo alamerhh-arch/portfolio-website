@@ -5,9 +5,8 @@ const newProjects=[
  ['Dammam School','Educational / Architecture','projects/dammam-school.html','08'],
  ['Dr. Sarah Villa','Residential / Villa','projects/dr-sarah-villa.html','09'],
  ['NEOM Sports Village','Sports / Masterplanning','projects/neom-sports-village.html','10'],
- ['Qiddiya Worker Camps — Source Set','Residential / BIM','projects/qiddiya-worker-camps-source.html','11'],
- ['Red Sea — Turtle Bay Substructure','Red Sea / Substructure','projects/red-sea-turtle-bay-substructure.html','12'],
- ['Zain','Industrial / Architectural BIM','projects/zain.html','13']
+ ['Red Sea — Turtle Bay','Red Sea / Substructure','projects/red-sea-turtle-bay.html','11'],
+ ['Zain','Industrial / Architectural BIM','projects/scitra-industries-zain.html','12']
 ];
 const grid=document.querySelector('.project-grid');
 if(grid&&!grid.dataset.newProjects){newProjects.forEach(([title,type,href,num],i)=>{const a=document.createElement('article');a.className='project';a.innerHTML=`<a href="${href}"><div class="project-image image-0${(i%6)+1}"><span>${num}</span></div><div class="project-meta"><div><h3>${title}</h3><p>${type}</p></div><span>↗</span></div></a>`;grid.appendChild(a)});grid.dataset.newProjects='true'}
