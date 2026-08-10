@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d1d1b">
+  <meta name="description" content="Selected architectural and BIM project documentation by Ahmed Alamer.">
+  <title>Project | Ahmed Alamer</title>
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#project-gallery">Skip to project gallery</a>
+  <header class="site-header project-header scrolled">
+    <a class="brand" href="index.html#work" aria-label="Back to Ahmed Alamer portfolio">
+      <span class="brand-mark">AA</span>
+      <span class="brand-copy">Ahmed Alamer<small>Architectural BIM Engineer</small></span>
+    </a>
+    <nav class="project-nav" aria-label="Project navigation">
+      <a href="index.html#work">← All projects</a>
+      <a class="nav-cta" href="index.html#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main class="project-detail-main">
+    <section class="project-detail-hero">
+      <div class="project-detail-copy">
+        <p class="kicker" data-project-category></p>
+        <h1 data-project-title>Project</h1>
+        <p class="project-summary" data-project-summary></p>
+      </div>
+      <div class="project-cover-image">
+        <img data-project-cover src="" alt="">
+      </div>
+      <div class="project-facts">
+        <div><span>Project type</span><strong data-project-type></strong></div>
+        <div><span>Scope</span><strong data-project-scope></strong></div>
+        <div><span>Gallery</span><strong data-project-count></strong></div>
+      </div>
+    </section>
+
+    <section class="project-gallery-section" id="project-gallery">
+      <div class="gallery-heading">
+        <p class="section-number">Project documentation</p>
+        <h2>Explore the<br><em>complete set.</em></h2>
+        <p>Select any sheet to inspect it at a larger scale. A curated set from the supplied project material is optimized for fast, clear web viewing.</p>
+      </div>
+      <div data-gallery-root></div>
+    </section>
+  </main>
+
+  <dialog class="project-lightbox" data-lightbox aria-label="Project image viewer">
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image viewer">×</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">←</button>
+    <figure>
+      <img data-lightbox-image src="" alt="">
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+    <button class="lightbox-arrow lightbox-next" type="button" data-lightbox-next aria-label="Next image">→</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <span>© <span data-year></span> Ahmed Alamer</span>
+    <span>Project portfolio</span>
+    <a href="index.html#work">All projects ←</a>
+  </footer>
+  <script src="projects.js"></script>
+</body>
+</html>
