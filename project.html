@@ -15,12 +15,12 @@
 <body class="project-page">
   <a class="skip-link" href="#project-gallery">Skip to project gallery</a>
   <header class="site-header project-header scrolled">
-    <a class="brand" href="index.html#work" aria-label="Back to Ahmed Alamer portfolio">
+    <a class="brand" href="index.html" aria-label="Back to Ahmed Alamer portfolio">
       <span class="brand-mark">AA</span>
       <span class="brand-copy">Ahmed Alamer<small>Architectural BIM Engineer</small></span>
     </a>
     <nav class="project-nav" aria-label="Project navigation">
-      <a href="index.html#work">← All projects</a>
+      <a href="projects.html">← All projects</a>
       <a class="nav-cta" href="index.html#contact">Contact <span>↗</span></a>
     </nav>
   </header>
@@ -46,9 +46,16 @@
       <div class="gallery-heading">
         <p class="section-number">Project documentation</p>
         <h2>Explore the<br><em>complete set.</em></h2>
-        <p>Select any sheet to inspect it at a larger scale. A curated set from the supplied project material is optimized for fast, clear web viewing.</p>
+        <p>Select any sheet to inspect it full screen. Use the arrows to move through the set, or open the original image in a separate tab.</p>
       </div>
-      <div data-gallery-root></div>
+      <div class="gallery-help" aria-label="How to use the gallery">
+        <span><b>01</b> Select a sheet</span>
+        <span><b>02</b> Browse with arrows</span>
+        <span><b>03</b> Open the full image</span>
+      </div>
+      <div data-gallery-root>
+        <noscript><p class="gallery-fallback">The interactive viewer requires JavaScript. You can still return to the <a href="projects.html">project library</a>.</p></noscript>
+      </div>
     </section>
   </main>
 
@@ -57,7 +64,7 @@
     <button class="lightbox-arrow lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">←</button>
     <figure>
       <img data-lightbox-image src="" alt="">
-      <figcaption data-lightbox-caption></figcaption>
+      <figcaption><span data-lightbox-caption></span><a data-lightbox-open href="#" target="_blank" rel="noreferrer">Open full image ↗</a></figcaption>
     </figure>
     <button class="lightbox-arrow lightbox-next" type="button" data-lightbox-next aria-label="Next image">→</button>
   </dialog>
@@ -65,7 +72,7 @@
   <footer class="site-footer">
     <span>© <span data-year></span> Ahmed Alamer</span>
     <span>Project portfolio</span>
-    <a href="index.html#work">All projects ←</a>
+    <a href="projects.html">All projects ←</a>
   </footer>
   <script src="projects.js"></script>
 </body>

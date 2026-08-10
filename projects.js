@@ -126,6 +126,7 @@ if (!project) {
   const lightbox = document.querySelector('[data-lightbox]');
   const lightboxImage = document.querySelector('[data-lightbox-image]');
   const lightboxCaption = document.querySelector('[data-lightbox-caption]');
+  const lightboxOpen = document.querySelector('[data-lightbox-open]');
   let activeIndex = 0;
 
   const showImage = index => {
@@ -133,6 +134,7 @@ if (!project) {
     const item = allImages[activeIndex];
     lightboxImage.src = item.src;
     lightboxImage.alt = `${project.title} — ${item.group} — image ${item.number}`;
+    lightboxOpen.href = item.src;
     lightboxCaption.textContent = `${project.title} · ${item.group} · Sheet ${pad(item.number)} · ${pad(activeIndex + 1)} / ${pad(total)}`;
   };
 
