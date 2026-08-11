@@ -7,7 +7,8 @@ const closeMenu = () => {
   menuButton?.classList.remove('active');
   menuButton?.setAttribute('aria-expanded', 'false');
   menuButton?.setAttribute('aria-label', 'Open navigation');
-  document.body.style.overflow = '';
+  document.documentElement.classList.remove('menu-open');
+  document.body.classList.remove('menu-open');
 };
 
 menuButton?.addEventListener('click', () => {
@@ -16,10 +17,18 @@ menuButton?.addEventListener('click', () => {
   menuButton.classList.toggle('active', open);
   menuButton.setAttribute('aria-expanded', String(open));
   menuButton.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
-  document.body.style.overflow = open ? 'hidden' : '';
+  document.documentElement.classList.toggle('menu-open', open);
+  document.body.classList.toggle('menu-open', open);
 });
 
 navigation?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') closeMenu();
+});
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 960) closeMenu();
+}, { passive: true });
+window.addEventListener('pageshow', closeMenu);
 
 const updateHeader = () => header?.classList.toggle('scrolled', window.scrollY > 28);
 window.addEventListener('scroll', updateHeader, { passive: true });
