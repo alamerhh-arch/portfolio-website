@@ -19,6 +19,10 @@ const projects = {
     scope: 'Architecture & BIM',
     summary: 'A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.',
     cover: 1,
+    video: {
+      id: 'sTII2z1BTTU',
+      title: 'Dammam School project presentation'
+    },
     groups: [{ label: 'Architectural & technical package', images: [1, 2, 3, 7, 8, 16, 24, 28] }]
   },
   'dr-sarah-villa': {
