@@ -374,3 +374,32 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .project-video-frame { margin-inline: 0; }
 }
 
+/* Professional certificates */
+.certificates-section { background: var(--paper-deep); }
+.certificate-group + .certificate-group { margin-top: 100px; }
+.certificate-group-heading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.certificate-group-heading > div { display: flex; align-items: baseline; gap: 18px; }
+.certificate-group-heading span, .certificate-group-heading > b { color: var(--accent); font: 700 9px var(--display); letter-spacing: .09em; text-transform: uppercase; }
+.certificate-group-heading h3 { margin: 0; font-size: clamp(26px,3vw,42px); letter-spacing: -.045em; }
+.certificate-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 44px 22px; }
+.certificate-card { display: block; min-width: 0; }
+.certificate-preview { position: relative; aspect-ratio: 1.414/1; padding: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--white); }
+.certificate-preview img { width: 100%; height: 100%; object-fit: contain; transition: transform .4s ease; }
+.certificate-card:hover .certificate-preview img { transform: scale(1.018); }
+.certificate-copy { position: relative; min-height: 126px; padding: 18px 0 22px; border-bottom: 1px solid var(--line); }
+.certificate-copy > span { color: var(--accent); font-size: 8px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.certificate-copy h3 { max-width: 82%; margin: 9px 0 0; font-size: clamp(17px,1.55vw,24px); line-height: 1.12; letter-spacing: -.035em; }
+.certificate-copy b { position: absolute; right: 0; bottom: 22px; font-size: 9px; }
+
+@media (max-width: 960px) {
+  .certificate-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 680px) {
+  .certificate-group + .certificate-group { margin-top: 76px; }
+  .certificate-group-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .certificate-grid { grid-template-columns: 1fr; gap: 38px; }
+  .certificate-copy { min-height: 112px; }
+  .certificate-copy h3 { font-size: 22px; }
+}
+
