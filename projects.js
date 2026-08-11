@@ -32,6 +32,10 @@ const projects = {
     scope: 'Space planning',
     summary: 'Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.',
     cover: 1,
+    video: {
+      id: '3ffOgybiq6o',
+      title: 'Dr. Sarah Villa project presentation'
+    },
     groups: [{ label: 'Villa floor plans', images: [1, 2] }]
   },
   'neom-sports-village': {
