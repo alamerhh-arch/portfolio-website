@@ -514,3 +514,66 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .certificate-showcase-button { width: 100%; }
 }
 
+/* Compact project and credential systems */
+.home-project-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 22px 18px; }
+.home-project-card { min-width: 0; overflow: hidden; border: 1px solid var(--line); background: var(--paper); transition: transform .25s ease, box-shadow .25s ease; }
+.home-project-card:hover { transform: translateY(-4px); box-shadow: 0 16px 38px rgba(29,29,27,.12); }
+.home-project-thumb { position: relative; aspect-ratio: 16/10; overflow: hidden; background: #cbc6ba; }
+.home-project-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.home-project-card:hover .home-project-thumb img { transform: scale(1.035); }
+.home-project-thumb > span { position: absolute; left: 12px; top: 12px; z-index: 2; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: rgba(251,250,247,.92); color: var(--ink); font: 700 8px var(--display); }
+.home-project-thumb-taqa { padding: 20px; display: flex; flex-direction: column; justify-content: flex-end; background: var(--ink); color: var(--white); }
+.home-project-thumb-taqa::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.1) 1px,transparent 1px); background-size: 36px 36px; mask-image: linear-gradient(135deg,#000,transparent 70%); }
+.home-project-thumb-taqa strong { position: relative; font: 750 clamp(26px,2.5vw,42px)/.82 var(--display); letter-spacing: -.06em; }
+.home-project-thumb-taqa small { position: relative; margin-top: 10px; color: #9ea59f; font-size: 8px; letter-spacing: .1em; text-transform: uppercase; }
+.home-project-copy { min-height: 140px; padding: 17px 16px 19px; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.home-project-copy > span { color: var(--accent); font-size: 8px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.home-project-copy h3 { margin: 9px 0 18px; font-size: clamp(18px,1.65vw,25px); line-height: 1.05; letter-spacing: -.04em; }
+.home-project-copy b { margin-top: auto; display: inline-flex; justify-content: space-between; font-size: 9px; }
+.home-project-copy i { font-style: normal; transition: transform .2s ease; }
+.home-project-card:hover .home-project-copy i { transform: translate(3px,-3px); }
+.home-project-action { margin-top: 56px; padding: 26px 28px; display: flex; align-items: end; justify-content: space-between; gap: 28px; background: var(--ink); color: var(--white); }
+.home-project-action > div > span { color: #aeb4ae; font-size: 8px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.home-project-action h3 { margin: 10px 0 0; font-size: clamp(24px,2.6vw,38px); letter-spacing: -.045em; }
+.home-project-action .button { min-width: 190px; background: var(--accent); }
+
+.certificate-showcase-grid .certificate-preview { aspect-ratio: 1.7/1; padding: 6px; }
+.certificate-showcase-grid .certificate-copy { min-height: 112px; padding: 17px 17px 19px; }
+.certificate-showcase-grid .certificate-copy h3 { margin-bottom: 12px; font-size: clamp(16px,1.35vw,20px); }
+.certificate-library-section .certificate-grid { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 32px 16px; }
+.certificate-library-section .certificate-preview { aspect-ratio: 1.65/1; padding: 6px; }
+.certificate-library-section .certificate-copy { min-height: 102px; padding: 14px 0 17px; }
+.certificate-library-section .certificate-copy h3 { margin-top: 7px; font-size: clamp(15px,1.25vw,19px); }
+.certificate-library-section .certificate-copy b { bottom: 17px; }
+
+.projects-library { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 38px 18px; }
+.projects-library .gallery-cover { aspect-ratio: 16/10; }
+.projects-library .gallery-card-copy { padding-top: 14px; }
+.projects-library .gallery-card-copy h2 { font-size: clamp(19px,2vw,28px); }
+
+@media (max-width: 1200px) {
+  .certificate-library-section .certificate-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+
+@media (max-width: 1100px) {
+  .home-project-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 960px) {
+  .home-project-action { align-items: flex-start; flex-direction: column; }
+  .certificate-library-section .certificate-grid,
+  .projects-library { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 680px) {
+  .home-project-grid,
+  .certificate-library-section .certificate-grid,
+  .projects-library { grid-template-columns: 1fr; }
+  .home-project-thumb { aspect-ratio: 16/9; }
+  .home-project-copy { min-height: 124px; }
+  .home-project-action { padding: 24px 20px; }
+  .home-project-action .button { width: 100%; }
+  .certificate-showcase-grid .certificate-preview,
+  .certificate-library-section .certificate-preview { aspect-ratio: 1.55/1; }
+}
+
