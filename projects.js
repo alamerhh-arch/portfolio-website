@@ -6,6 +6,10 @@ const projects = {
     scope: 'Design & documentation',
     summary: 'A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.',
     cover: 1,
+    video: {
+      id: 'DwV8U7zahrY',
+      title: 'Cultural Center — Marlowe project presentation'
+    },
     groups: [{ label: 'Design presentation & documentation', images: [1, 4, 5, 7, 8, 9, 14, 18] }]
   },
   'dammam-school': {
@@ -97,6 +101,16 @@ if (!project) {
   const cover = document.querySelector('[data-project-cover]');
   cover.src = imagePath(project.cover);
   cover.alt = `${project.title} project cover`;
+
+  const videoSection = document.querySelector('[data-project-video-section]');
+  if (project.video && videoSection) {
+    const videoFrame = videoSection.querySelector('[data-project-video]');
+    const videoLink = videoSection.querySelector('[data-project-video-link]');
+    videoFrame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(project.video.id)}?rel=0`;
+    videoFrame.title = project.video.title;
+    videoLink.href = `https://www.youtube.com/watch?v=${encodeURIComponent(project.video.id)}`;
+    videoSection.hidden = false;
+  }
 
   const galleryRoot = document.querySelector('[data-gallery-root]');
   project.groups.forEach(group => {
