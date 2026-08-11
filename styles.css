@@ -403,3 +403,31 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .certificate-copy h3 { font-size: 22px; }
 }
 
+/* Certificate library */
+.certificate-access { margin: -26px 0 68px; padding: 28px 30px; display: flex; align-items: end; justify-content: space-between; gap: 30px; background: var(--ink); color: var(--white); }
+.certificate-access > div > span { color: #b5bbb5; font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.certificate-access h3 { margin: 13px 0 8px; font-size: clamp(25px,3vw,42px); letter-spacing: -.05em; }
+.certificate-access p { max-width: 650px; margin: 0; color: #b5bbb5; font-size: 13px; line-height: 1.55; }
+.certificate-access .button { flex: 0 0 auto; background: var(--accent); }
+.certificates-index-page { background: var(--white); }
+.certificates-index-hero { min-height: 72vh; padding: 160px 4vw 80px; background: var(--paper); }
+.certificates-index-hero h1 { font-size: clamp(68px,9.2vw,150px); }
+.certificates-index-intro { margin-top: 65px; padding-top: 26px; display: grid; grid-template-columns: 1fr auto auto; gap: 6vw; align-items: end; border-top: 1px solid var(--line); }
+.certificates-index-intro > p { max-width: 660px; margin: 0; color: #5f655f; font-size: clamp(16px,1.5vw,22px); line-height: 1.55; }
+.certificates-index-intro > div { display: grid; gap: 4px; }
+.certificates-index-intro strong { font: 700 clamp(28px,4vw,54px) var(--display); letter-spacing: -.06em; }
+.certificates-index-intro span { color: #6d716d; font-size: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+.certificate-library-section { padding: 100px 4vw 140px; background: var(--paper-deep); }
+
+@media (max-width: 960px) {
+  .certificate-access { align-items: flex-start; flex-direction: column; }
+}
+
+@media (max-width: 680px) {
+  .certificate-access { margin-top: -24px; padding: 24px 20px; }
+  .certificates-index-hero { min-height: auto; padding: 120px 20px 65px; }
+  .certificates-index-intro { grid-template-columns: repeat(2,1fr); gap: 35px 20px; }
+  .certificates-index-intro > p { grid-column: 1/-1; }
+  .certificate-library-section { padding: 76px 20px 100px; }
+}
+
