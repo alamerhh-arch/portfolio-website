@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body class="project-page">
   <a class="skip-link" href="#project-gallery">Skip to project gallery</a>
@@ -40,6 +40,27 @@
         <div><span>Scope</span><strong data-project-scope></strong></div>
         <div><span>Gallery</span><strong data-project-count></strong></div>
       </div>
+    </section>
+
+    <section class="project-video-section" data-project-video-section hidden aria-labelledby="project-video-title">
+      <div class="project-video-heading">
+        <div>
+          <p class="section-number">Project film</p>
+          <h2 id="project-video-title">See the design<br><em>in motion.</em></h2>
+        </div>
+        <p>A concise visual presentation of the project concept, architectural language, and design development.</p>
+      </div>
+      <div class="project-video-frame">
+        <iframe
+          data-project-video
+          src=""
+          title=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <a class="project-video-link" data-project-video-link href="#" target="_blank" rel="noopener noreferrer">Watch on YouTube <span>↗</span></a>
     </section>
 
     <section class="project-gallery-section" id="project-gallery">
@@ -74,6 +95,6 @@
     <span>Project portfolio</span>
     <a href="projects.html">All projects ←</a>
   </footer>
-  <script src="projects.js?v=3"></script>
+  <script src="projects.js?v=4"></script>
 </body>
 </html>
