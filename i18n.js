@@ -24,6 +24,7 @@
     'View case study': 'عرض دراسة الحالة', 'View project': 'عرض المشروع', 'View all projects': 'عرض جميع المشاريع', 'Case study in preparation': 'دراسة الحالة قيد الإعداد',
     'Architectural redesign developed through concept, planning, visualization, and coordinated documentation.': 'إعادة تصميم معماري تطورت عبر الفكرة والتخطيط والإظهار والتوثيق المنسق.',
     'A coordinated educational package connecting architectural intent, technical drawings, and environmental studies.': 'حزمة تعليمية منسقة تربط الرؤية المعمارية بالرسومات الفنية والدراسات البيئية.',
+    'Multidisciplinary BIM documentation for sports and dining facilities, including coordinated plans, sections, schedules, and construction details.': 'توثيق BIM متعدد التخصصات للمنشآت الرياضية ومنشآت الطعام، يشمل المخططات والقطاعات والجداول والتفاصيل التنفيذية المنسقة.',
     'Residential space planning focused on clear circulation, zoning, and functional room relationships.': 'تخطيط سكني يركز على وضوح الحركة والتوزيع والعلاقات الوظيفية بين الفراغات.',
     'Cultural / Redesign': 'ثقافي / إعادة تصميم', 'Education / Architecture': 'تعليمي / عمارة', 'Residential / Design': 'سكني / تصميم', 'Sports / BIM': 'رياضي / BIM', 'Residential / BIM': 'سكني / BIM', 'Hospitality / Structure': 'ضيافة / إنشائي', 'Industrial / Documentation': 'صناعي / توثيق', 'Industrial / Architectural BIM': 'صناعي / BIM معماري',
     '03 / Expertise': '03 / الخبرات', 'One model.': 'نموذج واحد.', 'Many decisions.': 'قرارات متعددة.',
