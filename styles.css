@@ -151,6 +151,11 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .expertise-card li { border: 1px solid rgba(255,255,255,.2); padding: 8px 10px; font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
 
 .experience-section { background: var(--paper); }
+.experience-marker { align-self: stretch; display: flex; flex-direction: column; justify-content: space-between; gap: 30px; }
+.experience-marker .section-number { margin-top: 9px; }
+.experience-total { display: flex; align-items: flex-end; gap: 11px; color: var(--accent); }
+.experience-total strong { font: 700 clamp(42px,4.2vw,68px)/.76 var(--display); letter-spacing: -.07em; }
+.experience-total span { padding-bottom: 1px; color: #686d68; font: 700 9px/1.25 var(--display); letter-spacing: .08em; text-transform: uppercase; }
 .timeline { border-top: 1px solid var(--line); }
 .timeline-item { display: grid; grid-template-columns: .45fr 1fr 1.2fr; gap: 4vw; padding: 38px 0; border-bottom: 1px solid var(--line); }
 .timeline-date { font: 700 11px var(--display); letter-spacing: .05em; }
@@ -266,6 +271,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .hero-metrics { grid-column: auto; grid-template-columns: 1fr; }
   .hero-metrics div, .hero-metrics div + div { padding: 18px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .section-intro { grid-template-columns: 1fr; gap: 26px; }
+  .experience-marker { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 20px; }
+  .experience-total strong { font-size: 48px; }
   .gallery-intro { grid-template-columns: 1fr; gap: 24px; }
   .section-intro > p:last-child { max-width: 600px; }
   .project-featured, .project-wide { display: block; }
