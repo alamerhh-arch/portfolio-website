@@ -1028,3 +1028,13 @@ body { font-size: 15px; line-height: 1.55; }
   .project-filter button { flex: 0 0 auto; }
 }
 
+/* Unified copper contact actions */
+.contact-actions .contact-action,
+.contact-actions .contact-action:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--white);
+}
+.contact-actions .contact-action small { color: rgba(255,255,255,.76); }
+.contact-actions .contact-action:hover { background: #a96849; }
+
