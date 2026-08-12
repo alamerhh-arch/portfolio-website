@@ -1038,3 +1038,20 @@ body { font-size: 15px; line-height: 1.55; }
 .contact-actions .contact-action small { color: rgba(255,255,255,.76); }
 .contact-actions .contact-action:hover { background: #a96849; }
 
+/* Projects CTA — button only */
+.home-project-action-button-only {
+  padding: 0;
+  justify-content: flex-end;
+  background: transparent;
+}
+.home-project-action-button-only .button {
+  min-width: 210px;
+  background: var(--accent);
+  color: var(--white);
+}
+
+@media (max-width: 680px) {
+  .home-project-action-button-only { padding: 0; }
+  .home-project-action-button-only .button { width: 100%; }
+}
+
