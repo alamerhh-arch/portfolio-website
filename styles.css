@@ -172,13 +172,6 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .tool-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
 .tool-cloud b { padding: 8px 10px; border: 1px solid rgba(23,27,24,.35); font-size: 10px; font-weight: 600; }
 
-.credentials-section { background: var(--white); }
-.credentials-layout { max-width: 920px; }
-.credential-list { border-top: 1px solid var(--line); }
-.credential-list article { display: grid; grid-template-columns: 85px 1fr; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.credential-list span { color: var(--accent); font: 700 9px var(--display); text-transform: uppercase; letter-spacing: .08em; }
-.credential-list h3 { margin: 0; font-size: 15px; line-height: 1.35; }
-
 .contact-section { padding: 100px 4vw 68px; background: var(--ink); color: var(--white); display: grid; grid-template-columns: 1.3fr .7fr; gap: 8vw; }
 .contact-copy h2 { margin: 0; font-size: clamp(46px,6.5vw,92px); line-height: .88; letter-spacing: -.075em; }
 .contact-email { display: inline-flex; align-items: center; gap: 15px; margin-top: 36px; padding-bottom: 6px; border-bottom: 2px solid var(--accent); font: 700 clamp(18px,2.2vw,32px) var(--display); letter-spacing: -.04em; }
@@ -300,7 +293,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .coordination-core { width: 94px; height: 94px; }
   .model { width: 56px; height: 56px; }
   .section { padding: 72px 20px; }
-  .project-list, .expertise-grid, .credentials-layout, .gallery-projects { grid-template-columns: 1fr; }
+  .project-list, .expertise-grid, .gallery-projects { grid-template-columns: 1fr; }
   .project-featured, .project-wide { grid-column: auto; }
   .project-art, .project-featured .project-art { height: 360px; }
   .project-featured .project-copy, .project-wide .project-copy { padding: 28px 20px 38px; }
@@ -475,6 +468,12 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .certificate-showcase-header h2 { margin: 0; font-size: clamp(38px,4.4vw,68px); line-height: .95; letter-spacing: -.06em; }
 .certificate-showcase-header h2 em { color: #f7f8fb; font-style: normal; }
 .certificate-showcase-header > p { max-width: 560px; margin: 0 0 7px; color: #aebdd2; font-size: 15px; line-height: 1.7; }
+.credential-summary { margin-bottom: 34px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border: 1px solid #293a55; border-radius: 14px; overflow: hidden; background: #0a1524; }
+.credential-summary > div { min-width: 0; padding: 17px 18px; border-right: 1px solid #293a55; }
+.credential-summary > div:last-child { border-right: 0; }
+.credential-summary span { display: block; margin-bottom: 7px; color: #4e8fff; font: 800 8px var(--display); letter-spacing: .11em; text-transform: uppercase; }
+.credential-summary strong { color: #d9e1ec; font: 600 12px/1.45 var(--display); }
+
 .certificate-showcase-grid { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 22px; }
 .certificate-showcase-grid .certificate-card { grid-column: span 2; overflow: hidden; border: 1px solid #293a55; border-radius: 18px; background: #0d192a; color: #f7f8fb; }
 .certificate-showcase-grid .certificate-preview { aspect-ratio: 1.45/1; padding: 8px; border: 0; border-radius: 0; background: #fff; }
@@ -490,6 +489,9 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 @media (max-width: 960px) {
   .certificate-showcase-header { grid-template-columns: 1fr; gap: 22px; }
   .certificate-showcase-header > p { max-width: 680px; }
+  .credential-summary { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .credential-summary > div:nth-child(2) { border-right: 0; }
+  .credential-summary > div:nth-child(-n+2) { border-bottom: 1px solid #293a55; }
   .certificate-showcase-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .certificate-showcase-grid .certificate-card { grid-column: span 2; }
   .certificate-showcase-grid .certificate-card:nth-child(4) { grid-column: span 2; }
@@ -499,6 +501,9 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .certificates-showcase { padding: 70px 20px; }
   .certificate-showcase-header { margin-bottom: 32px; }
   .certificate-showcase-header > p { font-size: 14px; }
+  .credential-summary { grid-template-columns: 1fr; margin-bottom: 28px; }
+  .credential-summary > div, .credential-summary > div:nth-child(2) { border-right: 0; border-bottom: 1px solid #293a55; }
+  .credential-summary > div:last-child { border-bottom: 0; }
   .certificate-showcase-grid { grid-template-columns: 1fr; gap: 20px; }
   .certificate-showcase-grid .certificate-card,
   .certificate-showcase-grid .certificate-card:nth-child(4),
