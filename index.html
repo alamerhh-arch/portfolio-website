@@ -19,11 +19,12 @@
   <meta name="twitter:image" content="https://alamerhh-arch.github.io/portfolio-website/assets/projects/cultural-center-marlowe/01.webp">
   <meta name="theme-color" content="#1d1d1b">
   <title>Ahmed Alamer | Architectural BIM Engineer</title>
-  <script>document.documentElement.classList.add('js')</script>
+  <script>document.documentElement.classList.add('js');if(localStorage.getItem('portfolio-language')==='ar'){document.documentElement.lang='ar';document.documentElement.dir='rtl'}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=39">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=40">
+  <script src="i18n.js?v=2" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -56,6 +57,7 @@
       <a href="#expertise" data-section-link>Expertise</a>
       <a href="#experience" data-section-link>Experience</a>
       <a href="#certificates" data-section-link>Certificates</a>
+      <button class="language-toggle" type="button" data-language-toggle aria-label="التبديل إلى العربية" lang="ar">العربية</button>
       <a class="nav-cta" href="#contact">Start a conversation <span>↗</span></a>
     </nav>
   </header>
@@ -69,6 +71,7 @@
         <p class="hero-lead">I’m Ahmed Alamer, an Architectural BIM Engineer turning design intent into coordinated, buildable information—from concept and code analysis to IFC, shop drawings, and as-built delivery.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="projects.html">View project galleries <span>↗</span></a>
+          <a class="button button-secondary" href="assets/documents/ahmed-alamer-cv.pdf" download="Ahmed-Alamer-Architectural-BIM-Engineer-CV.pdf">Download CV <span>↓</span></a>
         </div>
       </div>
 

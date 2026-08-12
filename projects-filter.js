@@ -22,9 +22,10 @@ if (projectFilter) {
     });
 
     const activeLabel = buttons.find(button => button.dataset.filter === filter)?.childNodes[0]?.textContent.trim() || 'All';
-    status.textContent = filter === 'all'
-      ? `Showing all ${visibleCount} projects`
-      : `Showing ${visibleCount} ${activeLabel} project${visibleCount === 1 ? '' : 's'}`;
+    const arabic = document.documentElement.lang === 'ar';
+    status.textContent = arabic
+      ? (filter === 'all' ? `عرض جميع المشاريع وعددها ${visibleCount}` : `عرض ${visibleCount} من المشاريع المصنفة ${activeLabel}`)
+      : (filter === 'all' ? `Showing all ${visibleCount} projects` : `Showing ${visibleCount} ${activeLabel} project${visibleCount === 1 ? '' : 's'}`);
   };
 
   projectFilter.addEventListener('click', event => {
