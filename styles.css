@@ -1058,3 +1058,104 @@ body { font-size: 15px; line-height: 1.55; }
 /* Supplied accent for the certificates statement */
 .certificate-showcase-header h2 em { color: #956247; }
 
+/* Unified sitewide action system */
+:root {
+  --action-height: 48px;
+  --action-radius: 2px;
+  --action-pad: 16px;
+}
+
+.button,
+.nav-cta,
+.contact-action,
+.project-video-link,
+.certificate-toolbar button,
+.project-filter button {
+  border-radius: var(--action-radius);
+  font-family: var(--display);
+  font-weight: 700;
+}
+
+.button,
+.nav-cta {
+  min-height: var(--action-height);
+  padding: 0 var(--action-pad);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  border: 1px solid transparent;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.button:hover,
+.nav-cta:hover,
+.contact-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(29,29,27,.1);
+}
+
+.button span,
+.nav-cta span,
+.contact-action b,
+.project-video-link span {
+  display: inline-block;
+  transition: transform .2s ease;
+}
+.button:hover span,
+.nav-cta:hover span,
+.contact-action:hover b,
+.project-video-link:hover span { transform: translate(3px,-3px); }
+
+.button-primary,
+.button-dark,
+.nav-cta {
+  background: var(--ink);
+  color: var(--white);
+}
+.certificate-showcase-button,
+.home-project-action-button-only .button {
+  min-width: 210px;
+  padding: 0 var(--action-pad);
+  border-radius: var(--action-radius);
+  background: var(--accent);
+  color: var(--white);
+}
+.certificate-showcase-button:hover,
+.home-project-action-button-only .button:hover {
+  background: #a96849;
+  box-shadow: 0 10px 24px rgba(154,96,69,.2);
+}
+
+.contact-action {
+  min-height: 72px;
+  padding: 14px 18px;
+  border-width: 1px;
+  border-style: solid;
+}
+.contact-actions .contact-action:hover { box-shadow: 0 10px 24px rgba(154,96,69,.18); }
+
+.project-video-link {
+  min-height: 44px;
+  padding: 0 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.certificate-toolbar button,
+.project-filter button {
+  min-height: 40px;
+  padding: 0 13px;
+  font-size: 10px;
+}
+
+@media (max-width: 680px) {
+  .button,
+  .nav-cta { min-height: 48px; }
+  .contact-action { min-height: 68px; }
+  .certificate-showcase-button,
+  .home-project-action-button-only .button { width: 100%; }
+}
+
