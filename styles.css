@@ -1163,3 +1163,6 @@ body { font-size: 15px; line-height: 1.55; }
 .home-project-action-button-only { justify-content: center; }
 .home-project-action-button-only .button { border-radius: 10px; }
 
+/* Softer highlighted actions */
+.certificate-showcase-button,
+.contact-actions .contact-action { border-radius: 10px; }
