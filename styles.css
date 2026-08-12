@@ -152,6 +152,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .expertise-card li { border: 1px solid rgba(255,255,255,.2); padding: 7px 9px; font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
 
 .experience-section { background: var(--paper); }
+.experience-section { padding-bottom: 66px; }
+.experience-section + .certificates-showcase { padding-top: 66px; }
 .experience-marker { align-self: stretch; display: flex; flex-direction: column; justify-content: space-between; gap: 30px; }
 .experience-marker .section-number { margin-top: 9px; }
 .experience-total { display: flex; align-items: flex-end; gap: 11px; color: var(--accent); }
@@ -301,6 +303,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .coordination-core { width: 94px; height: 94px; }
   .model { width: 56px; height: 56px; }
   .section { padding: 72px 20px; }
+  .experience-section { padding-bottom: 48px; }
+  .experience-section + .certificates-showcase { padding-top: 48px; }
   .project-list, .expertise-grid, .gallery-projects { grid-template-columns: 1fr; }
   .project-featured, .project-wide { grid-column: auto; }
   .project-art, .project-featured .project-art { height: 360px; }
