@@ -3,7 +3,10 @@ const projects = {
     title: 'Cultural Center — Marlowe',
     category: 'Cultural / Architectural redesign',
     type: 'Cultural center',
+    role: 'Architectural designer',
     scope: 'Design & documentation',
+    stage: 'Concept to detailed design',
+    tools: 'Revit · AutoCAD · Visualization',
     summary: 'A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.',
     cover: 1,
     video: {
@@ -16,7 +19,10 @@ const projects = {
     title: 'Dammam School',
     category: 'Education / Architecture',
     type: 'Educational',
+    role: 'Architectural designer',
     scope: 'Architecture & BIM',
+    stage: 'Design development',
+    tools: 'Revit · AutoCAD · Visualization',
     summary: 'A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.',
     cover: 1,
     video: {
@@ -29,7 +35,10 @@ const projects = {
     title: 'Dr. Sarah Villa',
     category: 'Residential / Design',
     type: 'Private villa',
+    role: 'Architectural designer',
     scope: 'Space planning',
+    stage: 'Concept design',
+    tools: 'AutoCAD · Visualization',
     summary: 'Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.',
     cover: 1,
     video: {
@@ -42,7 +51,10 @@ const projects = {
     title: 'NEOM Sports Village',
     category: 'Sports / Architecture & BIM',
     type: 'Sports village',
+    role: 'Architectural BIM engineer',
     scope: 'Multidisciplinary documentation',
+    stage: 'Detailed design',
+    tools: 'Revit · Navisworks · ACC',
     summary: 'A detailed BIM documentation set covering the dining facility and sports center, with coordinated plans, elevations, sections, schedules, and construction details.',
     cover: 29,
     groups: [
@@ -54,7 +66,10 @@ const projects = {
     title: 'Qiddiya Worker Camps',
     category: 'Residential program / BIM',
     type: 'Worker accommodation',
+    role: 'Architectural BIM engineer',
     scope: 'Architecture & coordination',
+    stage: 'Detailed design',
+    tools: 'Revit · Navisworks · ACC',
     summary: 'A coordinated BIM package spanning worker housing, a dining facility, and a fire station, with model views and detailed architectural documentation.',
     cover: 14,
     groups: [
@@ -67,7 +82,10 @@ const projects = {
     title: 'Red Sea — Turtle Bay Substructure',
     category: 'Hospitality / Structural documentation',
     type: 'Hospitality',
+    role: 'Structural BIM modeler',
     scope: 'Substructure package',
+    stage: 'Technical documentation',
+    tools: 'Revit · Navisworks',
     summary: 'Structural documentation for the Turtle Bay substructure, including coordinated plans, foundation details, schedules, and a three-dimensional model view.',
     cover: 8,
     groups: [{ label: 'Substructure documentation', images: [2, 3, 4, 5, 6, 7, 8, 9] }]
@@ -76,7 +94,10 @@ const projects = {
     title: 'Zain — HCL Tank Farm & Warehouse',
     category: 'Industrial / Documentation',
     type: 'Industrial facility',
+    role: 'Architectural BIM engineer',
     scope: 'Architectural documentation',
+    stage: 'Technical documentation',
+    tools: 'Revit · AutoCAD · ACC',
     summary: 'An industrial drawing package covering the HCL tank farm and warehouse through plans, elevations, schedules, sections, and envelope details.',
     cover: 14,
     groups: [
@@ -103,8 +124,19 @@ if (!project) {
   document.querySelector('[data-project-category]').textContent = project.category;
   document.querySelector('[data-project-summary]').textContent = project.summary;
   document.querySelector('[data-project-type]').textContent = project.type;
+  document.querySelector('[data-project-role]').textContent = project.role;
   document.querySelector('[data-project-scope]').textContent = project.scope;
+  document.querySelector('[data-project-stage]').textContent = project.stage;
+  document.querySelector('[data-project-tools]').textContent = project.tools;
   document.querySelector('[data-project-count]').textContent = `${total} images`;
+
+  const canonicalUrl = `https://alamerhh-arch.github.io/portfolio-website/project.html?id=${encodeURIComponent(projectId)}`;
+  const imageUrl = new URL(imagePath(project.cover), window.location.href).href;
+  document.querySelector('[data-project-canonical]').href = canonicalUrl;
+  document.querySelector('[data-project-og-title]').content = `${project.title} | Ahmed Alamer`;
+  document.querySelector('[data-project-og-description]').content = project.summary;
+  document.querySelector('[data-project-og-url]').content = canonicalUrl;
+  document.querySelector('[data-project-og-image]').content = imageUrl;
 
   const cover = document.querySelector('[data-project-cover]');
   cover.src = imagePath(project.cover);
