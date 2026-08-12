@@ -1179,3 +1179,23 @@ body { font-size: 15px; line-height: 1.55; }
   .certificate-showcase-grid { grid-template-columns: 1fr; }
 }
 
+/* Replace black actions with the supplied copper and soft corners */
+.button-primary,
+.button-dark,
+.nav-cta,
+.project-filter button.active,
+.certificate-toolbar button.active {
+  border-color: #956247;
+  border-radius: 10px;
+  background: #956247;
+  color: var(--white);
+}
+.button-primary:hover,
+.button-dark:hover,
+.nav-cta:hover,
+.project-filter button.active:hover,
+.certificate-toolbar button.active:hover {
+  border-color: #a96849;
+  background: #a96849;
+}
+
