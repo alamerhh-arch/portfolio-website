@@ -65,7 +65,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .model-a { left: 14%; top: 22%; }
 .model-b { right: 15%; top: 25%; }
 .model-c { right: 22%; bottom: 14%; }
-.visual-caption { position: absolute; inset: auto 26px 24px; display: flex; justify-content: space-between; color: #8d968e; font-size: 8px; letter-spacing: .11em; text-transform: uppercase; }
+.model-d { left: 22%; bottom: 14%; }
+.visual-caption { position: absolute; inset: auto 26px 24px; display: grid; grid-template-columns: repeat(4,auto); justify-content: space-between; color: #8d968e; font-size: 8px; letter-spacing: .11em; text-transform: uppercase; }
 @keyframes rotate { to { transform: translate(-50%,-50%) rotate(360deg); } }
 
 .hero-metrics { position: relative; z-index: 2; grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 50px; border-top: 1px solid var(--line); }
