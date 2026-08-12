@@ -1159,3 +1159,7 @@ body { font-size: 15px; line-height: 1.55; }
   .home-project-action-button-only .button { width: 100%; }
 }
 
+/* Centered rounded projects CTA */
+.home-project-action-button-only { justify-content: center; }
+.home-project-action-button-only .button { border-radius: 10px; }
+
