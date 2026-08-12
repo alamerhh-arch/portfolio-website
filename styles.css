@@ -82,6 +82,10 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .section-intro > p:last-child { margin: 0; max-width: 460px; color: #666c66; line-height: 1.65; font-size: 14px; }
 
 .work-section { background: var(--paper); }
+.work-showcase-section .section-intro { position: relative; width: min(1160px,100%); margin-inline: auto; grid-template-columns: repeat(4,minmax(0,1fr)); column-gap: 14px; }
+.work-showcase-section .section-intro .section-number { position: absolute; left: 0; top: -24px; margin: 0; }
+.work-showcase-section .section-intro h2 { grid-column: 1 / span 2; }
+.work-showcase-section .section-intro > p:last-child { grid-column: 4; justify-self: start; }
 .project-access { margin: -16px 0 52px; padding: 28px 30px; display: flex; align-items: end; justify-content: space-between; gap: 30px; background: var(--ink); color: var(--white); }
 .project-access > div > span { color: #b5bbb5; font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .project-access h3 { margin: 13px 0 8px; font-size: clamp(25px,3vw,42px); letter-spacing: -.05em; }
@@ -589,6 +593,11 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 }
 
 @media (max-width: 680px) {
+  .work-showcase-section .section-intro { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  .work-showcase-section .section-intro .section-number { position: static; margin: 0; }
+  .work-showcase-section .section-intro h2,
+  .work-showcase-section .section-intro > p:last-child { grid-column: 1; }
+
   .home-project-grid,
   .certificate-library-section .certificate-grid,
   .projects-library { grid-template-columns: 1fr; }
