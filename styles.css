@@ -501,7 +501,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .home-project-thumb { position: relative; aspect-ratio: 16/8; overflow: hidden; background: #cbc6ba; }
 .home-project-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
 .home-project-thumb-logo { background: var(--paper); }
-.home-project-thumb-logo img { object-fit: contain; padding: 12%; }
+.home-project-thumb-logo img { object-fit: contain; padding: 3%; }
 .home-project-card:hover .home-project-thumb img { transform: scale(1.035); }
 .home-project-thumb > span { position: absolute; left: 10px; top: 10px; z-index: 2; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: rgba(251,250,247,.92); color: var(--ink); font: 700 7px var(--display); }
 .home-project-thumb-taqa { padding: 16px; display: flex; flex-direction: column; justify-content: flex-end; background: var(--ink); color: var(--white); }
