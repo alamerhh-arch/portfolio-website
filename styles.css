@@ -81,7 +81,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .section-intro h2, .about-copy h2 { margin: 0; font-size: clamp(38px, 4.6vw, 72px); line-height: .93; letter-spacing: -.065em; font-weight: 650; }
 .section-intro > p:last-child { margin: 0; max-width: 460px; color: #666c66; line-height: 1.65; font-size: 14px; }
 
-.work-section { background: var(--white); }
+.work-section { background: var(--paper); }
 .project-access { margin: -16px 0 52px; padding: 28px 30px; display: flex; align-items: end; justify-content: space-between; gap: 30px; background: var(--ink); color: var(--white); }
 .project-access > div > span { color: #b5bbb5; font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .project-access h3 { margin: 13px 0 8px; font-size: clamp(25px,3vw,42px); letter-spacing: -.05em; }
@@ -168,7 +168,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .timeline-role h3 { margin: 9px 0 0; font-size: clamp(20px,2.2vw,32px); line-height: 1.05; letter-spacing: -.04em; }
 .timeline-copy p { max-width: 720px; margin: 0; color: #606660; font-size: 14px; line-height: 1.65; }
 
-.about-section { background: var(--paper-deep); color: var(--ink); display: grid; grid-template-columns: 1.05fr .95fr; gap: 8vw; }
+.about-section { background: var(--paper); color: var(--ink); display: grid; grid-template-columns: 1.05fr .95fr; gap: 8vw; }
 .about-copy .section-number { margin-bottom: 48px; }
 .about-copy h2 em { color: var(--accent); }
 .about-lead { max-width: 620px; margin: 30px 0 15px; font: 600 clamp(20px,2vw,30px)/1.35 var(--display); letter-spacing: -.03em; }
@@ -483,36 +483,36 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 }
 
 /* Certificate showcase — reference-led layout */
-.certificates-showcase { background: #07101d; color: #f7f8fb; }
+.certificates-showcase { background: var(--ink); color: var(--white); }
 .certificate-showcase-header { width: min(1120px,100%); margin: 0 auto 34px; display: grid; grid-template-columns: minmax(0,1fr) minmax(300px,.9fr); gap: 6vw; align-items: end; }
-.certificate-showcase-kicker { margin: 0 0 13px; color: #4e8fff; font: 800 10px var(--display); letter-spacing: .12em; text-transform: uppercase; }
+.certificate-showcase-kicker { margin: 0 0 13px; color: var(--accent); font: 800 10px var(--display); letter-spacing: .12em; text-transform: uppercase; }
 .certificate-showcase-header h2 { margin: 0; white-space: nowrap; font-size: clamp(34px,4vw,62px); line-height: .95; letter-spacing: -.06em; }
-.certificate-showcase-header h2 em { color: #f7f8fb; font-style: normal; }
-.certificate-showcase-header > p { max-width: 560px; margin: 0 0 7px; color: #aebdd2; font-size: 15px; line-height: 1.7; }
-.credential-summary { width: min(1120px,100%); margin: 0 auto 30px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border: 1px solid #293a55; border-radius: 14px; overflow: hidden; background: #0a1524; }
-.credential-summary > div { min-width: 0; padding: 17px 18px; border-right: 1px solid #293a55; }
+.certificate-showcase-header h2 em { color: var(--white); font-style: normal; }
+.certificate-showcase-header > p { max-width: 560px; margin: 0 0 7px; color: #aeb4ae; font-size: 15px; line-height: 1.7; }
+.credential-summary { width: min(1120px,100%); margin: 0 auto 30px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border: 1px solid rgba(255,255,255,.16); border-radius: 14px; overflow: hidden; background: rgba(255,255,255,.035); }
+.credential-summary > div { min-width: 0; padding: 17px 18px; border-right: 1px solid rgba(255,255,255,.16); }
 .credential-summary > div:last-child { border-right: 0; }
-.credential-summary span { display: block; margin-bottom: 7px; color: #4e8fff; font: 800 8px var(--display); letter-spacing: .11em; text-transform: uppercase; }
-.credential-summary strong { color: #d9e1ec; font: 600 12px/1.45 var(--display); }
+.credential-summary span { display: block; margin-bottom: 7px; color: var(--accent); font: 800 8px var(--display); letter-spacing: .11em; text-transform: uppercase; }
+.credential-summary strong { color: var(--white); font: 600 12px/1.45 var(--display); }
 
 .certificate-showcase-grid { width: min(1120px,100%); margin-inline: auto; display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 16px; }
-.certificate-showcase-grid .certificate-card { grid-column: span 2; overflow: hidden; border: 1px solid #293a55; border-radius: 14px; background: #0d192a; color: #f7f8fb; }
+.certificate-showcase-grid .certificate-card { grid-column: span 2; overflow: hidden; border: 1px solid rgba(255,255,255,.16); border-radius: 14px; background: rgba(255,255,255,.045); color: var(--white); }
 .certificate-showcase-grid .certificate-preview { aspect-ratio: 1.45/1; padding: 8px; border: 0; border-radius: 0; background: #fff; }
-.certificate-showcase-grid .certificate-preview::after { right: 12px; top: 12px; border-radius: 6px; background: rgba(7,16,29,.9); }
-.certificate-showcase-grid .certificate-copy { min-height: 132px; padding: 22px 20px 24px; border: 0; border-top: 1px solid #293a55; background: #0d192a; }
-.certificate-showcase-grid .certificate-copy > span { color: #8293aa; }
-.certificate-showcase-grid .certificate-copy h3 { max-width: 100%; margin: 10px 0 16px; color: #f7f8fb; font-size: clamp(17px,1.55vw,23px); }
-.certificate-showcase-grid .certificate-copy b { position: static; display: inline-flex; gap: 6px; color: #38c8ff; font-size: 10px; }
+.certificate-showcase-grid .certificate-preview::after { right: 12px; top: 12px; border-radius: 6px; background: rgba(29,29,27,.9); }
+.certificate-showcase-grid .certificate-copy { min-height: 132px; padding: 22px 20px 24px; border: 0; border-top: 1px solid rgba(255,255,255,.16); background: transparent; }
+.certificate-showcase-grid .certificate-copy > span { color: #aeb4ae; }
+.certificate-showcase-grid .certificate-copy h3 { max-width: 100%; margin: 10px 0 16px; color: var(--white); font-size: clamp(17px,1.55vw,23px); }
+.certificate-showcase-grid .certificate-copy b { position: static; display: inline-flex; gap: 6px; color: var(--accent); font-size: 10px; }
 .certificate-showcase-action { width: min(1120px,100%); margin: 32px auto 0; display: flex; justify-content: center; }
-.certificate-showcase-button { min-width: 0; padding: 16px 22px; border-radius: 10px; background: #3f72f2; color: #fff; }
-.certificate-showcase-button:hover { box-shadow: 0 12px 34px rgba(63,114,242,.28); }
+.certificate-showcase-button { min-width: 0; padding: 16px 22px; border-radius: 10px; background: var(--accent); color: var(--white); }
+.certificate-showcase-button:hover { box-shadow: 0 12px 34px rgba(154,96,69,.28); }
 
 @media (max-width: 960px) {
   .certificate-showcase-header { grid-template-columns: 1fr; gap: 22px; }
   .certificate-showcase-header > p { max-width: 680px; }
   .credential-summary { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .credential-summary > div:nth-child(2) { border-right: 0; }
-  .credential-summary > div:nth-child(-n+2) { border-bottom: 1px solid #293a55; }
+  .credential-summary > div:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.16); }
   .certificate-showcase-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .certificate-showcase-grid .certificate-card { grid-column: span 2; }
   .certificate-showcase-grid .certificate-card:nth-child(4) { grid-column: span 2; }
@@ -600,3 +600,26 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .certificate-library-section .certificate-preview { aspect-ratio: 1.65/1; }
 }
 
+/* Desktop viewport rhythm: each primary section fills one screen when its content allows it. */
+@media (min-width: 1100px) and (min-height: 720px) {
+  .about-section,
+  .work-showcase-section,
+  .expertise-section,
+  .experience-section,
+  .certificates-showcase,
+  .contact-section {
+    min-height: calc(100svh - 70px);
+    align-content: center;
+    scroll-margin-top: 70px;
+  }
+
+  .about-section,
+  .work-showcase-section,
+  .experience-section,
+  .certificates-showcase {
+    padding-block: clamp(42px, 5.5vh, 68px);
+  }
+
+  .expertise-section { padding-block: clamp(42px, 5vh, 62px); }
+  .contact-section { padding-block: clamp(48px, 7vh, 78px); }
+}
