@@ -252,35 +252,35 @@
       </div>
 
       <div class="certificate-showcase-grid">
-        <a class="certificate-card reveal" href="assets/certificates/autodesk-atc-bim-manager.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/autodesk-atc-bim-manager.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/autodesk-atc-bim-manager.webp" alt="Revit — Architectural BIM Manager certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Autodesk Authorized Training Center</span><h3>Revit — Architectural BIM Manager</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/autodesk-atc-bim-specialist.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/autodesk-atc-bim-specialist.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/autodesk-atc-bim-specialist.webp" alt="Revit — Architectural BIM Specialist certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Autodesk Authorized Training Center</span><h3>Revit — Architectural BIM Specialist</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/bim-solutions-navisworks-coordinator.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/bim-solutions-navisworks-coordinator.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/bim-solutions-navisworks-coordinator.webp" alt="Navisworks — BIM Coordinator certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>BIM Solutions Training</span><h3>Navisworks — BIM Coordinator</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/autodesk-atc-acc.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/autodesk-atc-acc.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/autodesk-atc-acc.webp" alt="Autodesk Construction Cloud certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Autodesk Authorized Training Center</span><h3>Autodesk Construction Cloud</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/bim-solutions-dynamo-developer.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/bim-solutions-dynamo-developer.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/bim-solutions-dynamo-developer.webp" alt="Dynamo — BIM Developer certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>BIM Solutions Training</span><h3>Dynamo — BIM Developer</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/revizto-level-3.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/revizto-level-3.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/revizto-level-3.webp" alt="Revizto — Elite Expert Level 3 certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Revizto · Expert Level 3</span><h3>Revizto — Elite Expert Level 3</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/saudi-building-code-201.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/saudi-building-code-201.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/saudi-building-code-201.webp" alt="Saudi Building Code — SBC 201 certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Saudi Council of Engineers</span><h3>Saudi Building Code — SBC 201</h3><b>Open certificate <span>↗</span></b></div>
         </a>
-        <a class="certificate-card reveal" href="assets/certificates/saudi-building-code-701.webp" target="_blank" rel="noopener noreferrer">
+        <a class="certificate-card reveal" data-certificate-card href="assets/certificates/saudi-building-code-701.webp" target="_blank" rel="noopener noreferrer">
           <div class="certificate-preview"><img src="assets/certificates/saudi-building-code-701.webp" alt="Saudi Building Code — SBC 701 certificate awarded to Ahmed Alamer" loading="lazy"></div>
           <div class="certificate-copy"><span>Saudi Council of Engineers</span><h3>Saudi Building Code — SBC 701</h3><b>Open certificate <span>↗</span></b></div>
         </a>
@@ -290,6 +290,19 @@
         <a class="button certificate-showcase-button" href="certificates.html">View all certificates <span>↗</span></a>
       </div>
     </section>
+
+    <dialog class="certificate-lightbox" data-certificate-lightbox aria-label="Certificate viewer">
+      <button class="certificate-lightbox-close" type="button" data-certificate-close aria-label="Close certificate viewer">×</button>
+      <button class="certificate-lightbox-arrow certificate-lightbox-prev" type="button" data-certificate-prev aria-label="Previous certificate">←</button>
+      <figure>
+        <img data-certificate-image src="" alt="">
+        <figcaption>
+          <div><span data-certificate-position></span><strong data-certificate-title></strong><small data-certificate-issuer></small></div>
+          <a data-certificate-original href="#" target="_blank" rel="noopener noreferrer">Open original <span>↗</span></a>
+        </figcaption>
+      </figure>
+      <button class="certificate-lightbox-arrow certificate-lightbox-next" type="button" data-certificate-next aria-label="Next certificate">→</button>
+    </dialog>
 
     <section class="contact-section" id="contact">
       <div class="contact-copy reveal">
@@ -312,5 +325,6 @@
   </footer>
 
   <script src="script.js?v=5"></script>
+  <script src="certificates.js?v=2"></script>
 </body>
 </html>

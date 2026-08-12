@@ -42,6 +42,7 @@
     'Verified professional development across BIM authoring, coordination, cloud delivery, automation, and Saudi Building Code practice.': 'تطوير مهني موثق في إعداد نماذج BIM والتنسيق والتسليم السحابي والأتمتة وتطبيق كود البناء السعودي.',
     'Coordination': 'التنسيق', 'Delivery': 'التسليم', 'Saudi Building Codes 201, 601 & 701': 'أكواد البناء السعودي 201 و601 و701',
     'Open certificate': 'فتح الشهادة', 'Inspect certificate': 'عرض الشهادة', 'View all certificates': 'عرض جميع الشهادات',
+    'Certificate viewer': 'عارض الشهادات', 'Close certificate viewer': 'إغلاق عارض الشهادات', 'Previous certificate': 'الشهادة السابقة', 'Next certificate': 'الشهادة التالية',
     'Let’s coordinate the next move': 'لننسّق الخطوة التالية', 'Have a complex': 'هل لديك مشروع', 'project in mind?': 'معقد؟',
     'Email': 'البريد الإلكتروني', 'Phone': 'الهاتف', 'Professional profile': 'الملف المهني',
     'Selected work is presented for professional evaluation. Some project information has been limited or anonymized to respect client and project confidentiality.': 'تُعرض الأعمال المختارة لأغراض التقييم المهني. تم تقييد أو إخفاء بعض معلومات المشروعات احترامًا لسرية العملاء والمشروعات.',

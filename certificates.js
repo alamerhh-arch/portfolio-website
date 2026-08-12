@@ -9,6 +9,7 @@ const position = dialog?.querySelector('[data-certificate-position]');
 const original = dialog?.querySelector('[data-certificate-original]');
 let visibleCards = cards;
 let activeIndex = 0;
+let returnFocus = null;
 
 const updateViewer = index => {
   if (!visibleCards.length) return;
@@ -46,6 +47,7 @@ cards.forEach(card => card.addEventListener('click', event => {
   event.preventDefault();
   visibleCards = cards.filter(item => !item.hidden);
   updateViewer(visibleCards.indexOf(card));
+  returnFocus = card;
   dialog.showModal();
 }));
 
@@ -55,6 +57,7 @@ dialog?.querySelector('[data-certificate-next]').addEventListener('click', () =>
 dialog?.addEventListener('click', event => {
   if (event.target === dialog) dialog.close();
 });
+dialog?.addEventListener('close', () => returnFocus?.focus());
 document.addEventListener('keydown', event => {
   if (!dialog?.open) return;
   if (event.key === 'ArrowLeft') updateViewer(activeIndex - 1);
