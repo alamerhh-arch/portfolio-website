@@ -938,7 +938,8 @@ body { font-size: 15px; line-height: 1.55; }
   .certificate-showcase-grid,
   .projects-library,
   .certificate-library-section .certificate-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
-  .certificate-showcase-grid .certificate-card { grid-column: span 1; }
+  .certificate-showcase-grid .certificate-card,
+  .certificate-showcase-grid .certificate-card:nth-child(n) { grid-column: span 1; }
 }
 
 @media (max-width: 760px) {
