@@ -173,16 +173,11 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .tool-cloud b { padding: 8px 10px; border: 1px solid rgba(23,27,24,.35); font-size: 10px; font-weight: 600; }
 
 .credentials-section { background: var(--white); }
-.credentials-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; }
+.credentials-layout { max-width: 920px; }
 .credential-list { border-top: 1px solid var(--line); }
 .credential-list article { display: grid; grid-template-columns: 85px 1fr; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .credential-list span { color: var(--accent); font: 700 9px var(--display); text-transform: uppercase; letter-spacing: .08em; }
 .credential-list h3 { margin: 0; font-size: 15px; line-height: 1.35; }
-.research-list > p { margin: 0 0 25px; font: 700 10px var(--display); text-transform: uppercase; letter-spacing: .1em; }
-.research-list article { position: relative; padding: 24px 0 24px 54px; border-top: 1px solid var(--line); }
-.research-list article > span { position: absolute; left: 0; top: 29px; color: #8b918b; font-size: 9px; }
-.research-list h3 { margin: 0 0 8px; font-size: 22px; letter-spacing: -.035em; }
-.research-list article p { margin: 0; color: #697069; font-size: 12px; line-height: 1.55; }
 
 .contact-section { padding: 100px 4vw 68px; background: var(--ink); color: var(--white); display: grid; grid-template-columns: 1.3fr .7fr; gap: 8vw; }
 .contact-copy h2 { margin: 0; font-size: clamp(46px,6.5vw,92px); line-height: .88; letter-spacing: -.075em; }
