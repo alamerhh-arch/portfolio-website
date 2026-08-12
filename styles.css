@@ -640,3 +640,69 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .expertise-section { padding-block: clamp(42px, 5vh, 62px); }
   .contact-section { padding-block: clamp(48px, 7vh, 78px); }
 }
+
+/* Unified section canvas across desktop and mobile */
+body,
+.hero,
+.about-section,
+.work-section,
+.expertise-section,
+.experience-section,
+.certificates-showcase,
+.contact-section,
+.projects-index-page,
+.projects-index-hero,
+.projects-index-content,
+.project-page,
+.project-detail-hero,
+.project-gallery-section,
+.project-video-section,
+.certificates-index-page,
+.certificates-index-hero,
+.certificate-library-section,
+.certificates-section {
+  background: var(--paper);
+}
+
+.expertise-section,
+.certificates-showcase,
+.contact-section,
+.project-video-section { color: var(--ink); }
+
+.expertise-section .section-intro.light > p:last-child,
+.expertise-card p,
+.certificate-showcase-header > p,
+.contact-action small,
+.project-video-heading > p { color: #606660; }
+
+.expertise-grid,
+.expertise-card,
+.credential-summary { border-color: var(--line); }
+.expertise-card li { border-color: rgba(29,29,27,.24); }
+
+.credential-summary {
+  background: rgba(29,29,27,.035);
+  color: var(--ink);
+}
+.credential-summary > div { border-color: var(--line); }
+.credential-summary strong { color: var(--ink); }
+
+.contact-action {
+  border-color: rgba(29,29,27,.3);
+  color: var(--ink);
+}
+.contact-action:hover {
+  border-color: rgba(29,29,27,.55);
+  background: rgba(29,29,27,.04);
+}
+.contact-action-primary,
+.contact-action-primary:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--white);
+}
+.contact-action-primary small { color: rgba(255,255,255,.76); }
+
+.project-video-frame { border-color: var(--line); }
+.project-video-link { color: var(--ink); }
+
