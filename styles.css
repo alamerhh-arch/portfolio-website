@@ -1055,3 +1055,6 @@ body { font-size: 15px; line-height: 1.55; }
   .home-project-action-button-only .button { width: 100%; }
 }
 
+/* Supplied accent for the certificates statement */
+.certificate-showcase-header h2 em { color: #956247; }
+
