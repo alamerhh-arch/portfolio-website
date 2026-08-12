@@ -138,17 +138,18 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .more-projects li { display: grid; grid-template-columns: 70px 1fr; padding: 18px 0; border-bottom: 1px solid var(--line); font: 600 clamp(17px,2vw,28px) var(--display); letter-spacing: -.035em; }
 .more-projects li span { color: #8c928c; font: 600 9px var(--body); letter-spacing: .1em; }
 
-.expertise-section { background: var(--ink); color: var(--white); }
+.expertise-section { padding-top: 82px; padding-bottom: 82px; background: var(--ink); color: var(--white); }
 .section-intro.light > p:last-child { color: #9ea69f; }
+.expertise-section .section-intro { margin-bottom: 40px; }
 .expertise-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); border: 1px solid rgba(255,255,255,.15); }
-.expertise-card { min-height: 390px; padding: 36px; border-right: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); }
+.expertise-card { min-height: 292px; padding: 28px; border-right: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); }
 .expertise-card:nth-child(2n) { border-right: 0; }
 .expertise-card:nth-child(n+3) { border-bottom: 0; }
 .expertise-card > span { color: var(--accent); font: 700 9px var(--display); letter-spacing: .1em; }
-.expertise-card h3 { max-width: 470px; margin: 76px 0 18px; font-size: clamp(28px,3.2vw,48px); line-height: 1; letter-spacing: -.055em; }
-.expertise-card p { max-width: 480px; color: #a8afa9; line-height: 1.6; font-size: 13px; }
-.expertise-card ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 30px 0 0; padding: 0; }
-.expertise-card li { border: 1px solid rgba(255,255,255,.2); padding: 8px 10px; font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
+.expertise-card h3 { max-width: 420px; margin: 42px 0 14px; font-size: clamp(22px,2.35vw,34px); line-height: 1.04; letter-spacing: -.05em; }
+.expertise-card p { max-width: 460px; color: #a8afa9; line-height: 1.55; font-size: 12px; }
+.expertise-card ul { list-style: none; display: flex; flex-wrap: wrap; gap: 7px; margin: 22px 0 0; padding: 0; }
+.expertise-card li { border: 1px solid rgba(255,255,255,.2); padding: 7px 9px; font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
 
 .experience-section { background: var(--paper); }
 .experience-marker { align-self: stretch; display: flex; flex-direction: column; justify-content: space-between; gap: 30px; }
@@ -304,9 +305,11 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .project-featured, .project-wide { grid-column: auto; }
   .project-art, .project-featured .project-art { height: 360px; }
   .project-featured .project-copy, .project-wide .project-copy { padding: 28px 20px 38px; }
-  .expertise-card { min-height: 340px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.15) !important; padding: 26px 22px; }
+  .expertise-section { padding-top: 60px; padding-bottom: 60px; }
+  .expertise-section .section-intro { margin-bottom: 32px; }
+  .expertise-card { min-height: 250px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.15) !important; padding: 24px 20px; }
   .expertise-card:last-child { border-bottom: 0 !important; }
-  .expertise-card h3 { margin-top: 55px; }
+  .expertise-card h3 { margin-top: 34px; font-size: clamp(21px,7vw,29px); }
   .timeline-item { grid-template-columns: 1fr; gap: 12px; }
   .timeline-copy { grid-column: auto; }
   .about-copy .section-number { margin-bottom: 50px; }
