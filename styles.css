@@ -75,7 +75,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .hero-metrics strong { font: 700 clamp(20px, 2vw, 30px) var(--display); letter-spacing: -.055em; }
 .hero-metrics span { max-width: 155px; color: #6b716b; font-size: 10px; line-height: 1.4; text-transform: uppercase; letter-spacing: .04em; }
 
-.section { padding: 100px 4vw; }
+.section { padding: 88px 4vw; }
 .section-intro { display: grid; grid-template-columns: minmax(140px,.35fr) 1fr .7fr; gap: 4vw; align-items: end; margin-bottom: 52px; }
 .section-number { align-self: start; margin: 9px 0 0; font: 700 9px var(--display); letter-spacing: .12em; text-transform: uppercase; }
 .section-intro h2, .about-copy h2 { margin: 0; font-size: clamp(38px, 4.6vw, 72px); line-height: .93; letter-spacing: -.065em; font-weight: 650; }
@@ -152,8 +152,8 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .expertise-card li { border: 1px solid rgba(255,255,255,.2); padding: 7px 9px; font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
 
 .experience-section { background: var(--paper); }
-.experience-section { padding-bottom: 66px; }
-.experience-section + .certificates-showcase { padding-top: 66px; }
+.experience-section { padding-bottom: 60px; }
+.experience-section + .certificates-showcase { padding-top: 60px; }
 .experience-marker { align-self: stretch; display: flex; flex-direction: column; justify-content: space-between; gap: 30px; }
 .experience-marker .section-number { margin-top: 9px; }
 .experience-total { display: flex; align-items: flex-end; gap: 11px; color: var(--accent); }
@@ -302,9 +302,9 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .hero-visual { margin-top: 10px; }
   .coordination-core { width: 94px; height: 94px; }
   .model { width: 56px; height: 56px; }
-  .section { padding: 72px 20px; }
-  .experience-section { padding-bottom: 48px; }
-  .experience-section + .certificates-showcase { padding-top: 48px; }
+  .section { padding: 60px 20px; }
+  .experience-section { padding-bottom: 44px; }
+  .experience-section + .certificates-showcase { padding-top: 44px; }
   .project-list, .expertise-grid, .gallery-projects { grid-template-columns: 1fr; }
   .project-featured, .project-wide { grid-column: auto; }
   .project-art, .project-featured .project-art { height: 360px; }
