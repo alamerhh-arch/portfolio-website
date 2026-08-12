@@ -11,7 +11,7 @@
     'Available for selected opportunities': 'متاح للفرص المهنية المختارة',
     'Building clarity': 'نبني الوضوح', 'into': 'وسط', 'complexity.': 'التعقيد.',
     'I’m Ahmed Alamer, an Architectural BIM Engineer turning design intent into coordinated, buildable information—from concept and code analysis to IFC, shop drawings, and as-built delivery.': 'أنا أحمد العامر، مهندس نمذجة معلومات مبانٍ معماري، أحوّل الفكرة التصميمية إلى معلومات منسقة وقابلة للتنفيذ، بدءًا من المفهوم وتحليل الأكواد وصولًا إلى مخططات IFC والمخططات التنفيذية ونماذج ما بعد التنفيذ.',
-    'View project galleries': 'استعرض المشاريع', 'View CV': 'عرض السيرة الذاتية', 'Download CV': 'تنزيل السيرة الذاتية',
+    'View project galleries': 'استعرض المشاريع', 'View CV': 'عرض السيرة الذاتية',
     'Integrated project delivery': 'التسليم المتكامل للمشروعات', 'Architecture': 'العمارة', 'Structure': 'الإنشاء', 'Fire & Life Safety': 'الحريق وسلامة الأرواح',
     'Years across architecture, MEP & BIM': 'سنوات في العمارة والأنظمة وBIM', 'From concept through as-built': 'من الفكرة إلى نموذج ما بعد التنفيذ', 'Code-led design and compliance': 'تصميم وامتثال قائم على الكود',
     '01 / About': '01 / نبذة', 'Architecture meets': 'تلتقي العمارة', 'information.': 'بالمعلومات.',
