@@ -25,6 +25,8 @@
     'Architectural redesign developed through concept, planning, visualization, and coordinated documentation.': 'إعادة تصميم معماري تطورت عبر الفكرة والتخطيط والإظهار والتوثيق المنسق.',
     'A coordinated educational package connecting architectural intent, technical drawings, and environmental studies.': 'حزمة تعليمية منسقة تربط الرؤية المعمارية بالرسومات الفنية والدراسات البيئية.',
     'Multidisciplinary BIM documentation for sports and dining facilities, including coordinated plans, sections, schedules, and construction details.': 'توثيق BIM متعدد التخصصات للمنشآت الرياضية ومنشآت الطعام، يشمل المخططات والقطاعات والجداول والتفاصيل التنفيذية المنسقة.',
+    'Coordinated BIM delivery for worker housing, a dining facility, and a fire station, supported by detailed architectural documentation.': 'تسليم BIM منسق لسكن العمال ومنشأة الطعام ومحطة الإطفاء، مدعوم بتوثيق معماري تفصيلي.',
+    'Coordinated structural documentation for the hospitality substructure, including foundations, schedules, plans, and model views.': 'توثيق إنشائي منسق للأعمال التحتية في مشروع الضيافة، يشمل الأساسات والجداول والمخططات ومشاهد النموذج.',
     'Residential space planning focused on clear circulation, zoning, and functional room relationships.': 'تخطيط سكني يركز على وضوح الحركة والتوزيع والعلاقات الوظيفية بين الفراغات.',
     'Cultural / Redesign': 'ثقافي / إعادة تصميم', 'Education / Architecture': 'تعليمي / عمارة', 'Residential / Design': 'سكني / تصميم', 'Sports / BIM': 'رياضي / BIM', 'Residential / BIM': 'سكني / BIM', 'Hospitality / Structure': 'ضيافة / إنشائي', 'Industrial / Documentation': 'صناعي / توثيق', 'Industrial / Architectural BIM': 'صناعي / BIM معماري',
     '03 / Expertise': '03 / الخبرات', 'One model.': 'نموذج واحد.', 'Many decisions.': 'قرارات متعددة.',
