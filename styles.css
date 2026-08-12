@@ -30,8 +30,8 @@ button { font: inherit; }
 .site-nav > a:not(.nav-cta)::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -5px; height: 1px; background: currentColor; transition: .25s; }
 .site-nav > a:hover::after { right: 0; }
 .nav-cta { padding: 12px 16px; background: var(--ink); color: var(--white); }
-.nav-cta span, .button span, .text-link span, .contact-email span { transition: transform .2s ease; }
-.nav-cta:hover span, .button:hover span, .text-link:hover span, .contact-email:hover span { transform: translate(3px, -3px); }
+.nav-cta span, .button span, .text-link span, .contact-action b { transition: transform .2s ease; }
+.nav-cta:hover span, .button:hover span, .text-link:hover span, .contact-action:hover b { transform: translate(3px, -3px); }
 .menu-toggle { display: none; border: 0; background: none; padding: 8px; touch-action: manipulation; }
 .menu-toggle span { display: block; width: 24px; height: 1px; margin: 6px 0; background: var(--ink); transition: .25s; }
 
@@ -184,12 +184,15 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 
 .contact-section { padding: 100px 4vw 68px; background: var(--ink); color: var(--white); display: grid; grid-template-columns: 1.3fr .7fr; gap: 8vw; }
 .contact-copy h2 { margin: 0; font-size: clamp(46px,6.5vw,92px); line-height: .88; letter-spacing: -.075em; }
-.contact-email { display: inline-flex; align-items: center; gap: 15px; margin-top: 36px; padding-bottom: 6px; border-bottom: 2px solid var(--accent); font: 700 clamp(18px,2.2vw,32px) var(--display); letter-spacing: -.04em; }
-.contact-meta { align-self: end; border-top: 1px solid rgba(255,255,255,.22); }
-.contact-meta > div { padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.22); }
-.contact-meta span { display: block; margin-bottom: 8px; font-size: 8px; text-transform: uppercase; letter-spacing: .1em; }
-.contact-meta strong, .contact-meta a { font: 600 14px var(--display); }
-.contact-meta a span { display: inline; margin: 0; }
+.contact-actions { align-self: end; display: grid; gap: 12px; }
+.contact-action { min-height: 76px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 1px solid rgba(255,255,255,.24); color: var(--white); transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+.contact-action:hover { transform: translateY(-2px); border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.05); }
+.contact-action-primary { border-color: var(--accent); background: var(--accent); }
+.contact-action-primary:hover { border-color: #b97858; background: #a96849; }
+.contact-action span { font: 650 clamp(14px,1.25vw,18px)/1.25 var(--display); }
+.contact-action small { display: block; margin-bottom: 6px; color: #aeb4ae; font: 700 8px var(--display); letter-spacing: .1em; text-transform: uppercase; }
+.contact-action-primary small { color: rgba(255,255,255,.75); }
+.contact-action b { flex: 0 0 auto; font-size: 18px; }
 .site-footer { padding: 24px 4vw; display: flex; justify-content: space-between; background: var(--ink); color: #aeb4ae; font-size: 9px; text-transform: uppercase; letter-spacing: .08em; }
 .site-footer a { color: var(--white); }
 
@@ -288,7 +291,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .timeline-copy { grid-column: 2; }
   .about-section { grid-template-columns: 1fr; }
   .contact-section { grid-template-columns: 1fr; }
-  .contact-meta { margin-top: 80px; }
+  .contact-actions { margin-top: 38px; }
   .project-detail-hero { grid-template-columns: 1fr; }
   .project-cover-image { min-height: 480px; }
   .project-facts { grid-column: auto; }
@@ -322,7 +325,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
   .timeline-copy { grid-column: auto; }
   .about-copy .section-number { margin-bottom: 50px; }
   .contact-section { padding: 76px 20px 54px; }
-  .contact-email { font-size: 17px; }
+  .contact-action { min-height: 68px; padding: 14px 16px; }
   .site-footer { padding: 24px 20px; flex-direction: column; gap: 10px; }
   .project-nav { gap: 12px; }
   .project-nav > a:first-child { font-size: 9px; }
