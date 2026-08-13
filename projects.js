@@ -90,6 +90,21 @@ const projects = {
     cover: 8,
     groups: [{ label: 'Substructure documentation', images: [2, 3, 4, 5, 6, 7, 8, 9] }]
   },
+  'nesma-parking-building': {
+    title: 'Nesma Parking Building — Al Khobar Business Park',
+    category: 'Commercial / Architectural documentation',
+    type: 'Multi-storey parking building',
+    role: 'Architectural BIM engineer',
+    scope: 'Architecture & technical documentation',
+    stage: 'Detailed design',
+    tools: 'Revit · AutoCAD · BIM documentation',
+    summary: 'A coordinated architectural package for the Nesma multi-storey parking building at Al Khobar Business Park, combining exterior visualization with site planning, floor plans, elevations, sections, and construction information.',
+    cover: 1,
+    groups: [
+      { label: 'Architectural visualization', images: [1, 2, 3, 4] },
+      { label: 'Technical documentation', images: [5, 6, 7, 8] }
+    ]
+  },
   'zain': {
     title: 'Zain — HCL Tank Farm & Warehouse',
     category: 'Industrial / Documentation',
