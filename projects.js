@@ -105,6 +105,21 @@ const projects = {
       { label: 'Technical documentation', images: [5, 6, 7, 8] }
     ]
   },
+  'ebara-office-production': {
+    title: 'EBARA — Office & Production Buildings',
+    category: 'Industrial / Architectural documentation',
+    type: 'Office and production facility',
+    role: 'Architectural BIM engineer',
+    scope: 'Architecture & technical documentation',
+    stage: 'Detailed design',
+    tools: 'Revit · AutoCAD · BIM documentation',
+    summary: 'A coordinated architectural documentation package for the EBARA office and production complex, covering floor plans, elevations, sections, wall assemblies, schedules, and building-envelope details.',
+    cover: 1,
+    groups: [
+      { label: 'Office Building', images: [1, 2, 3, 4] },
+      { label: 'Production Building & Warehouse', images: [5, 6, 7, 8] }
+    ]
+  },
   'zain': {
     title: 'Zain — HCL Tank Farm & Warehouse',
     category: 'Industrial / Documentation',
