@@ -1,4 +1,4 @@
-const projects = {
+const fallbackProjects = {
   'cultural-center-marlowe': {
     title: 'Cultural Center — Marlowe',
     category: 'Cultural / Architectural redesign',
@@ -137,6 +137,20 @@ const projects = {
   }
 };
 
+const loadProjects = async () => {
+  try {
+    const response = await fetch('content/projects.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Projects request failed: ${response.status}`);
+    const data = await response.json();
+    return Object.fromEntries(data.projects.filter(item => item.published !== false).map(item => [item.slug, item]));
+  } catch (error) {
+    console.warn('Using embedded project fallback.', error);
+    return fallbackProjects;
+  }
+};
+
+(async () => {
+const projects = await loadProjects();
 const params = new URLSearchParams(window.location.search);
 const projectId = params.get('id');
 const project = projects[projectId];
@@ -145,7 +159,7 @@ if (!project) {
   window.location.replace('index.html#work');
 } else {
   const pad = number => String(number).padStart(2, '0');
-  const imagePath = number => `assets/projects/${projectId}/${pad(number)}.webp`;
+  const imagePath = value => typeof value === 'string' ? value : `assets/projects/${projectId}/${pad(value)}.webp`;
   const total = project.groups.reduce((sum, group) => sum + group.images.length, 0);
   const allImages = [];
 
@@ -161,7 +175,7 @@ if (!project) {
   document.querySelector('[data-project-count]').textContent = `${total} images`;
 
   const canonicalUrl = `https://alamerhh-arch.github.io/portfolio-website/project.html?id=${encodeURIComponent(projectId)}`;
-  const imageUrl = new URL(imagePath(project.cover), window.location.href).href;
+  const imageUrl = new URL(project.detailCoverImage || imagePath(project.cover), window.location.href).href;
   document.querySelector('[data-project-canonical]').href = canonicalUrl;
   document.querySelector('[data-project-og-title]').content = `${project.title} | Ahmed Alamer`;
   document.querySelector('[data-project-og-description]').content = project.summary;
@@ -169,7 +183,7 @@ if (!project) {
   document.querySelector('[data-project-og-image]').content = imageUrl;
 
   const cover = document.querySelector('[data-project-cover]');
-  cover.src = imagePath(project.cover);
+  cover.src = project.detailCoverImage || imagePath(project.cover);
   cover.alt = `${project.title} project cover`;
 
   const videoSection = document.querySelector('[data-project-video-section]');
@@ -192,15 +206,16 @@ if (!project) {
     const grid = document.createElement('div');
     grid.className = 'project-image-grid';
 
-    group.images.forEach(number => {
-      const item = { number, group: group.label, src: imagePath(number) };
+    group.images.forEach((source, imageIndex) => {
+      const sheet = typeof source === 'number' ? pad(source) : String(source).split('/').pop().replace(/\.[^.]+$/, '') || pad(imageIndex + 1);
+      const item = { number: sheet, group: group.label, src: imagePath(source) };
       allImages.push(item);
       const button = document.createElement('button');
       button.className = 'gallery-image-button';
       button.type = 'button';
       button.dataset.imageIndex = String(allImages.length - 1);
-      button.setAttribute('aria-label', `Open ${project.title}, ${group.label}, image ${number}`);
-      button.innerHTML = `<img src="${item.src}" alt="${project.title} — ${group.label} — image ${number}" loading="lazy"><span>${pad(number)}</span>`;
+      button.setAttribute('aria-label', `Open ${project.title}, ${group.label}, image ${sheet}`);
+      button.innerHTML = `<img src="${item.src}" alt="${project.title} — ${group.label} — image ${sheet}" loading="lazy"><span>${sheet}</span>`;
       grid.appendChild(button);
     });
     section.append(heading, grid);
@@ -219,7 +234,7 @@ if (!project) {
     lightboxImage.src = item.src;
     lightboxImage.alt = `${project.title} — ${item.group} — image ${item.number}`;
     lightboxOpen.href = item.src;
-    lightboxCaption.textContent = `${project.title} · ${item.group} · Sheet ${pad(item.number)} · ${pad(activeIndex + 1)} / ${pad(total)}`;
+    lightboxCaption.textContent = `${project.title} · ${item.group} · Sheet ${item.number} · ${pad(activeIndex + 1)} / ${pad(total)}`;
   };
 
   galleryRoot.addEventListener('click', event => {
@@ -239,3 +254,4 @@ if (!project) {
   });
   document.querySelector('[data-year]').textContent = new Date().getFullYear();
 }
+})();
