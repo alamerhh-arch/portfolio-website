@@ -9,5 +9,6 @@
   "seo": {
     "siteTitle": "Ahmed Alamer | Architectural BIM Engineer",
     "description": "Architectural BIM Engineer portfolio covering coordinated design, BIM delivery, technical documentation, and Saudi Building Code practice."
-  }
+  },
+  "cmsTest": "temporary Sveltia branch verification"
 }
