@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: alamerhh-arch/portfolio-website
+  branch: content-editor
+  # GitHub token sign-in is enabled by default in Sveltia CMS.
+
+media_folder: assets/uploads
+public_folder: /portfolio-website/assets/uploads
+
+publish_mode: simple
+site_url: https://alamerhh-arch.github.io/portfolio-website/
+display_url: https://alamerhh-arch.github.io/portfolio-website/
+logo_url: /portfolio-website/favicon.svg
+
+# Temporary non-editable collection. Real collections will be added only
+# after the existing HTML and JavaScript content is migrated safely.
+collections:
+  - name: cms_setup
+    label: CMS Setup
+    folder: admin
+    create: false
+    extension: json
+    format: json
+    fields:
+      - label: Status
+        name: status
+        widget: string
