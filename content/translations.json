@@ -1,0 +1,772 @@
+{
+  "translations": [
+    {
+      "english": "Skip to content",
+      "arabic": "تجاوز إلى المحتوى"
+    },
+    {
+      "english": "Skip to projects",
+      "arabic": "تجاوز إلى المشاريع"
+    },
+    {
+      "english": "Skip to certificates",
+      "arabic": "تجاوز إلى الشهادات"
+    },
+    {
+      "english": "Skip to project gallery",
+      "arabic": "تجاوز إلى معرض المشروع"
+    },
+    {
+      "english": "Architectural BIM Engineer",
+      "arabic": "مهندس نمذجة معلومات مبانٍ معماري"
+    },
+    {
+      "english": "About",
+      "arabic": "نبذة"
+    },
+    {
+      "english": "Projects",
+      "arabic": "المشاريع"
+    },
+    {
+      "english": "Expertise",
+      "arabic": "الخبرات"
+    },
+    {
+      "english": "Experience",
+      "arabic": "الخبرة"
+    },
+    {
+      "english": "Certificates",
+      "arabic": "الشهادات"
+    },
+    {
+      "english": "Start a conversation",
+      "arabic": "ابدأ محادثة"
+    },
+    {
+      "english": "Contact",
+      "arabic": "تواصل"
+    },
+    {
+      "english": "Portfolio",
+      "arabic": "الملف المهني"
+    },
+    {
+      "english": "All projects",
+      "arabic": "جميع المشاريع"
+    },
+    {
+      "english": "Available for selected opportunities",
+      "arabic": "متاح للفرص المهنية المختارة"
+    },
+    {
+      "english": "Building clarity",
+      "arabic": "نبني الوضوح"
+    },
+    {
+      "english": "into",
+      "arabic": "وسط"
+    },
+    {
+      "english": "complexity.",
+      "arabic": "التعقيد."
+    },
+    {
+      "english": "I’m Ahmed Alamer, an Architectural BIM Engineer turning design intent into coordinated, buildable information—from concept and code analysis to IFC, shop drawings, and as-built delivery.",
+      "arabic": "أنا أحمد العامر، مهندس نمذجة معلومات مبانٍ معماري، أحوّل الفكرة التصميمية إلى معلومات منسقة وقابلة للتنفيذ، بدءًا من المفهوم وتحليل الأكواد وصولًا إلى مخططات IFC والمخططات التنفيذية ونماذج ما بعد التنفيذ."
+    },
+    {
+      "english": "View project galleries",
+      "arabic": "استعرض المشاريع"
+    },
+    {
+      "english": "View CV",
+      "arabic": "عرض السيرة الذاتية"
+    },
+    {
+      "english": "Integrated project delivery",
+      "arabic": "التسليم المتكامل للمشروعات"
+    },
+    {
+      "english": "Architecture",
+      "arabic": "العمارة"
+    },
+    {
+      "english": "Structure",
+      "arabic": "الإنشاء"
+    },
+    {
+      "english": "Fire & Life Safety",
+      "arabic": "الحريق وسلامة الأرواح"
+    },
+    {
+      "english": "Years across architecture, MEP & BIM",
+      "arabic": "سنوات في العمارة والأنظمة وBIM"
+    },
+    {
+      "english": "From concept through as-built",
+      "arabic": "من الفكرة إلى نموذج ما بعد التنفيذ"
+    },
+    {
+      "english": "Code-led design and compliance",
+      "arabic": "تصميم وامتثال قائم على الكود"
+    },
+    {
+      "english": "01 / About",
+      "arabic": "01 / نبذة"
+    },
+    {
+      "english": "Architecture meets",
+      "arabic": "تلتقي العمارة"
+    },
+    {
+      "english": "information.",
+      "arabic": "بالمعلومات."
+    },
+    {
+      "english": "I work at the point where design quality, digital coordination, and construction reality meet.",
+      "arabic": "أعمل عند نقطة التقاء جودة التصميم والتنسيق الرقمي وواقع التنفيذ."
+    },
+    {
+      "english": "Based in Al-Khobar, Saudi Arabia, I bring an interdisciplinary perspective shaped by architectural design, MEP systems, structural modeling, and project delivery. That breadth helps me see dependencies early, communicate clearly, and keep the model useful to every team around it.",
+      "arabic": "أعمل من مدينة الخبر في المملكة العربية السعودية، وأمتلك منظورًا متعدد التخصصات تشكّل من خلال التصميم المعماري وأنظمة MEP والنمذجة الإنشائية وتسليم المشروعات. يتيح لي هذا التنوع اكتشاف الترابطات مبكرًا والتواصل بوضوح والحفاظ على فاعلية النموذج لجميع فرق المشروع."
+    },
+    {
+      "english": "Discuss a project",
+      "arabic": "ناقش مشروعًا"
+    },
+    {
+      "english": "Education",
+      "arabic": "التعليم"
+    },
+    {
+      "english": "Core toolkit",
+      "arabic": "الأدوات الأساسية"
+    },
+    {
+      "english": "Bachelor of Building Science Technology Engineering",
+      "arabic": "بكالوريوس هندسة تقنية علوم البناء"
+    },
+    {
+      "english": "02 / Selected work",
+      "arabic": "02 / أعمال مختارة"
+    },
+    {
+      "english": "Projects shaped by",
+      "arabic": "مشاريع صاغها"
+    },
+    {
+      "english": "coordination.",
+      "arabic": "التنسيق."
+    },
+    {
+      "english": "Eight selected projects spanning cultural, educational, residential, destination, hospitality, and industrial delivery across Saudi Arabia.",
+      "arabic": "ثمانية مشاريع مختارة تشمل المشروعات الثقافية والتعليمية والسكنية والوجهات والضيافة والمنشآت الصناعية في المملكة العربية السعودية."
+    },
+    {
+      "english": "View case study",
+      "arabic": "عرض دراسة الحالة"
+    },
+    {
+      "english": "View project",
+      "arabic": "عرض المشروع"
+    },
+    {
+      "english": "View all projects",
+      "arabic": "عرض جميع المشاريع"
+    },
+    {
+      "english": "Case study in preparation",
+      "arabic": "دراسة الحالة قيد الإعداد"
+    },
+    {
+      "english": "Architectural redesign developed through concept, planning, visualization, and coordinated documentation.",
+      "arabic": "إعادة تصميم معماري تطورت عبر الفكرة والتخطيط والإظهار والتوثيق المنسق."
+    },
+    {
+      "english": "A coordinated educational package connecting architectural intent, technical drawings, and environmental studies.",
+      "arabic": "حزمة تعليمية منسقة تربط الرؤية المعمارية بالرسومات الفنية والدراسات البيئية."
+    },
+    {
+      "english": "Multidisciplinary BIM documentation for sports and dining facilities, including coordinated plans, sections, schedules, and construction details.",
+      "arabic": "توثيق BIM متعدد التخصصات للمنشآت الرياضية ومنشآت الطعام، يشمل المخططات والقطاعات والجداول والتفاصيل التنفيذية المنسقة."
+    },
+    {
+      "english": "Coordinated BIM delivery for worker housing, a dining facility, and a fire station, supported by detailed architectural documentation.",
+      "arabic": "تسليم BIM منسق لسكن العمال ومنشأة الطعام ومحطة الإطفاء، مدعوم بتوثيق معماري تفصيلي."
+    },
+    {
+      "english": "Coordinated structural documentation for the hospitality substructure, including foundations, schedules, plans, and model views.",
+      "arabic": "توثيق إنشائي منسق للأعمال التحتية في مشروع الضيافة، يشمل الأساسات والجداول والمخططات ومشاهد النموذج."
+    },
+    {
+      "english": "Residential space planning focused on clear circulation, zoning, and functional room relationships.",
+      "arabic": "تخطيط سكني يركز على وضوح الحركة والتوزيع والعلاقات الوظيفية بين الفراغات."
+    },
+    {
+      "english": "Cultural / Redesign",
+      "arabic": "ثقافي / إعادة تصميم"
+    },
+    {
+      "english": "Education / Architecture",
+      "arabic": "تعليمي / عمارة"
+    },
+    {
+      "english": "Residential / Design",
+      "arabic": "سكني / تصميم"
+    },
+    {
+      "english": "Sports / BIM",
+      "arabic": "رياضي / BIM"
+    },
+    {
+      "english": "Residential / BIM",
+      "arabic": "سكني / BIM"
+    },
+    {
+      "english": "Hospitality / Structure",
+      "arabic": "ضيافة / إنشائي"
+    },
+    {
+      "english": "Industrial / Documentation",
+      "arabic": "صناعي / توثيق"
+    },
+    {
+      "english": "Industrial / Architectural BIM",
+      "arabic": "صناعي / BIM معماري"
+    },
+    {
+      "english": "03 / Expertise",
+      "arabic": "03 / الخبرات"
+    },
+    {
+      "english": "One model.",
+      "arabic": "نموذج واحد."
+    },
+    {
+      "english": "Many decisions.",
+      "arabic": "قرارات متعددة."
+    },
+    {
+      "english": "My role connects people, standards, and project information so teams can resolve issues earlier and deliver with confidence.",
+      "arabic": "يربط دوري بين الأشخاص والمعايير ومعلومات المشروع، بما يمكّن الفرق من معالجة المشكلات مبكرًا والتسليم بثقة."
+    },
+    {
+      "english": "BIM model development",
+      "arabic": "تطوير نماذج BIM"
+    },
+    {
+      "english": "Coordination & clash resolution",
+      "arabic": "التنسيق ومعالجة التعارضات"
+    },
+    {
+      "english": "Code-led architecture",
+      "arabic": "عمارة قائمة على الأكواد"
+    },
+    {
+      "english": "Multidisciplinary delivery",
+      "arabic": "تسليم متعدد التخصصات"
+    },
+    {
+      "english": "Detailed architectural and structural models, disciplined model management, and accurate 2D/3D deliverables.",
+      "arabic": "نماذج معمارية وإنشائية تفصيلية، وإدارة منضبطة للنماذج، ومخرجات دقيقة ثنائية وثلاثية الأبعاد."
+    },
+    {
+      "english": "Federated model review, systematic clash detection, issue tracking, and coordination across design disciplines.",
+      "arabic": "مراجعة النماذج المجمعة، والكشف المنهجي عن التعارضات، وتتبع المشكلات والتنسيق بين تخصصات التصميم."
+    },
+    {
+      "english": "Project case studies, requirement analysis, concept design, and architectural documentation aligned with Saudi regulations.",
+      "arabic": "دراسات المشروعات وتحليل المتطلبات والتصميم المفاهيمي والتوثيق المعماري المتوافق مع الأنظمة السعودية."
+    },
+    {
+      "english": "A practical foundation spanning MEP, structural systems, visualization, and project planning.",
+      "arabic": "أساس عملي يشمل أنظمة MEP والأنظمة الإنشائية والإظهار وتخطيط المشروعات."
+    },
+    {
+      "english": "04 / Experience",
+      "arabic": "04 / الخبرة"
+    },
+    {
+      "english": "Years of",
+      "arabic": "سنوات من"
+    },
+    {
+      "english": "experience",
+      "arabic": "الخبرة"
+    },
+    {
+      "english": "From systems to",
+      "arabic": "من الأنظمة إلى"
+    },
+    {
+      "english": "whole projects.",
+      "arabic": "المشروعات المتكاملة."
+    },
+    {
+      "english": "Architectural Intern",
+      "arabic": "متدرب معماري"
+    },
+    {
+      "english": "MEP Engineer → Lead Architect",
+      "arabic": "مهندس MEP ← معماري رئيسي"
+    },
+    {
+      "english": "Developing and managing coordinated models, facilitating clash resolution, maintaining federated information, and delivering architectural documentation across every major LOD stage.",
+      "arabic": "تطوير النماذج المنسقة وإدارتها، وتيسير معالجة التعارضات، والحفاظ على المعلومات المجمعة، وتسليم التوثيق المعماري عبر مراحل LOD الرئيسية."
+    },
+    {
+      "english": "Progressed from electrical and HVAC design into architectural leadership, client coordination, authority engagement, concept design, and visualization.",
+      "arabic": "تدرجت من تصميم الأنظمة الكهربائية والتكييف إلى قيادة الأعمال المعمارية والتنسيق مع العملاء والجهات والتصميم المفاهيمي والإظهار."
+    },
+    {
+      "english": "Early professional experience connecting the built environment with Saudi heritage and institutional practice.",
+      "arabic": "خبرة مهنية مبكرة تربط البيئة المبنية بالتراث السعودي والممارسة المؤسسية."
+    },
+    {
+      "english": "05 / Credentials & certificates",
+      "arabic": "05 / المؤهلات والشهادات"
+    },
+    {
+      "english": "Always",
+      "arabic": "تطوير"
+    },
+    {
+      "english": "developing.",
+      "arabic": "مستمر."
+    },
+    {
+      "english": "Verified professional development across BIM authoring, coordination, cloud delivery, automation, and Saudi Building Code practice.",
+      "arabic": "تطوير مهني موثق في إعداد نماذج BIM والتنسيق والتسليم السحابي والأتمتة وتطبيق كود البناء السعودي."
+    },
+    {
+      "english": "Coordination",
+      "arabic": "التنسيق"
+    },
+    {
+      "english": "Delivery",
+      "arabic": "التسليم"
+    },
+    {
+      "english": "Saudi Building Codes 201, 601 & 701",
+      "arabic": "أكواد البناء السعودي 201 و601 و701"
+    },
+    {
+      "english": "Open certificate",
+      "arabic": "فتح الشهادة"
+    },
+    {
+      "english": "Inspect certificate",
+      "arabic": "عرض الشهادة"
+    },
+    {
+      "english": "View all certificates",
+      "arabic": "عرض جميع الشهادات"
+    },
+    {
+      "english": "Certificate viewer",
+      "arabic": "عارض الشهادات"
+    },
+    {
+      "english": "Close certificate viewer",
+      "arabic": "إغلاق عارض الشهادات"
+    },
+    {
+      "english": "Previous certificate",
+      "arabic": "الشهادة السابقة"
+    },
+    {
+      "english": "Next certificate",
+      "arabic": "الشهادة التالية"
+    },
+    {
+      "english": "Let’s coordinate the next move",
+      "arabic": "لننسّق الخطوة التالية"
+    },
+    {
+      "english": "Have a complex",
+      "arabic": "هل لديك مشروع"
+    },
+    {
+      "english": "project in mind?",
+      "arabic": "معقد؟"
+    },
+    {
+      "english": "Email",
+      "arabic": "البريد الإلكتروني"
+    },
+    {
+      "english": "Phone",
+      "arabic": "الهاتف"
+    },
+    {
+      "english": "Professional profile",
+      "arabic": "الملف المهني"
+    },
+    {
+      "english": "Selected work is presented for professional evaluation. Some project information has been limited or anonymized to respect client and project confidentiality.",
+      "arabic": "تُعرض الأعمال المختارة لأغراض التقييم المهني. تم تقييد أو إخفاء بعض معلومات المشروعات احترامًا لسرية العملاء والمشروعات."
+    },
+    {
+      "english": "Back to top",
+      "arabic": "العودة للأعلى"
+    },
+    {
+      "english": "Project portfolio",
+      "arabic": "ملف المشروعات"
+    },
+    {
+      "english": "Professional certificates",
+      "arabic": "الشهادات المهنية"
+    },
+    {
+      "english": "Selected architectural & BIM work",
+      "arabic": "أعمال معمارية وBIM مختارة"
+    },
+    {
+      "english": "Project",
+      "arabic": "معرض"
+    },
+    {
+      "english": "galleries.",
+      "arabic": "المشاريع."
+    },
+    {
+      "english": "Eight curated projects covering architectural design, BIM coordination, structural documentation, and technical delivery.",
+      "arabic": "ثمانية مشاريع مختارة تغطي التصميم المعماري وتنسيق BIM والتوثيق الإنشائي والتسليم الفني."
+    },
+    {
+      "english": "Selected sheets",
+      "arabic": "لوحات مختارة"
+    },
+    {
+      "english": "Filter the projects",
+      "arabic": "تصفية المشاريع"
+    },
+    {
+      "english": "All",
+      "arabic": "الكل"
+    },
+    {
+      "english": "Residential",
+      "arabic": "سكني"
+    },
+    {
+      "english": "Hospitality",
+      "arabic": "ضيافة"
+    },
+    {
+      "english": "Industrial",
+      "arabic": "صناعي"
+    },
+    {
+      "english": "View gallery",
+      "arabic": "عرض المعرض"
+    },
+    {
+      "english": "In preparation",
+      "arabic": "قيد الإعداد"
+    },
+    {
+      "english": "Case study pending",
+      "arabic": "دراسة الحالة قيد الإعداد"
+    },
+    {
+      "english": "Verified professional development",
+      "arabic": "تطوير مهني موثق"
+    },
+    {
+      "english": "Professional",
+      "arabic": "الشهادات"
+    },
+    {
+      "english": "certificates.",
+      "arabic": "المهنية."
+    },
+    {
+      "english": "A curated record of continued learning across BIM authoring, coordination, automation, cloud delivery, and Saudi Building Code practice.",
+      "arabic": "سجل مختار للتعلم المستمر في إعداد نماذج BIM والتنسيق والأتمتة والتسليم السحابي وتطبيق كود البناء السعودي."
+    },
+    {
+      "english": "Categories",
+      "arabic": "فئات"
+    },
+    {
+      "english": "Filter the library",
+      "arabic": "تصفية المكتبة"
+    },
+    {
+      "english": "Autodesk Training Center",
+      "arabic": "مركز Autodesk للتدريب"
+    },
+    {
+      "english": "BIM Solutions",
+      "arabic": "BIM Solutions"
+    },
+    {
+      "english": "Saudi Building Code",
+      "arabic": "كود البناء السعودي"
+    },
+    {
+      "english": "6 certificates",
+      "arabic": "6 شهادات"
+    },
+    {
+      "english": "7 certificates",
+      "arabic": "7 شهادات"
+    },
+    {
+      "english": "3 certificates",
+      "arabic": "3 شهادات"
+    },
+    {
+      "english": "Open original",
+      "arabic": "فتح الملف الأصلي"
+    },
+    {
+      "english": "Project type",
+      "arabic": "نوع المشروع"
+    },
+    {
+      "english": "Role",
+      "arabic": "الدور"
+    },
+    {
+      "english": "Scope",
+      "arabic": "النطاق"
+    },
+    {
+      "english": "Stage",
+      "arabic": "المرحلة"
+    },
+    {
+      "english": "Tools",
+      "arabic": "الأدوات"
+    },
+    {
+      "english": "Gallery",
+      "arabic": "المعرض"
+    },
+    {
+      "english": "Cultural / Architectural redesign",
+      "arabic": "ثقافي / إعادة تصميم معماري"
+    },
+    {
+      "english": "Educational",
+      "arabic": "تعليمي"
+    },
+    {
+      "english": "Private villa",
+      "arabic": "فيلا خاصة"
+    },
+    {
+      "english": "Sports village",
+      "arabic": "قرية رياضية"
+    },
+    {
+      "english": "Worker accommodation",
+      "arabic": "سكن عمال"
+    },
+    {
+      "english": "Industrial facility",
+      "arabic": "منشأة صناعية"
+    },
+    {
+      "english": "Architectural designer",
+      "arabic": "مصمم معماري"
+    },
+    {
+      "english": "Architectural BIM engineer",
+      "arabic": "مهندس BIM معماري"
+    },
+    {
+      "english": "Structural BIM modeler",
+      "arabic": "نمذجة BIM إنشائية"
+    },
+    {
+      "english": "Design & documentation",
+      "arabic": "التصميم والتوثيق"
+    },
+    {
+      "english": "Architecture & BIM",
+      "arabic": "العمارة وBIM"
+    },
+    {
+      "english": "Space planning",
+      "arabic": "تخطيط الفراغات"
+    },
+    {
+      "english": "Multidisciplinary documentation",
+      "arabic": "توثيق متعدد التخصصات"
+    },
+    {
+      "english": "Architecture & coordination",
+      "arabic": "العمارة والتنسيق"
+    },
+    {
+      "english": "Substructure package",
+      "arabic": "حزمة الأعمال التحتية"
+    },
+    {
+      "english": "Architectural documentation",
+      "arabic": "التوثيق المعماري"
+    },
+    {
+      "english": "Concept to detailed design",
+      "arabic": "من الفكرة إلى التصميم التفصيلي"
+    },
+    {
+      "english": "Design development",
+      "arabic": "تطوير التصميم"
+    },
+    {
+      "english": "Concept design",
+      "arabic": "التصميم المفاهيمي"
+    },
+    {
+      "english": "Detailed design",
+      "arabic": "التصميم التفصيلي"
+    },
+    {
+      "english": "Technical documentation",
+      "arabic": "التوثيق الفني"
+    },
+    {
+      "english": "A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.",
+      "arabic": "إعادة تصميم مركز ثقافي معروضة من خلال صور الفكرة المعمارية والمخططات والواجهات والقطاعات ومعلومات التنفيذ التفصيلية."
+    },
+    {
+      "english": "A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.",
+      "arabic": "حزمة تصميم مدرسة منسقة تجمع الإظهار المعماري والمخططات والواجهات والمعلومات الإنشائية والتفاصيل والدراسات البيئية."
+    },
+    {
+      "english": "Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.",
+      "arabic": "تخطيط فراغي سكني مطور من خلال مساقط مفروشة وواضحة تشرح الحركة والتوزيع والعلاقات بين الغرف."
+    },
+    {
+      "english": "A detailed BIM documentation set covering the dining facility and sports center, with coordinated plans, elevations, sections, schedules, and construction details.",
+      "arabic": "مجموعة توثيق BIM تفصيلية لمنشأة الطعام والمركز الرياضي، وتشمل مخططات وواجهات وقطاعات وجداول وتفاصيل تنفيذية منسقة."
+    },
+    {
+      "english": "A coordinated BIM package spanning worker housing, a dining facility, and a fire station, with model views and detailed architectural documentation.",
+      "arabic": "حزمة BIM منسقة تشمل سكن العمال ومنشأة الطعام ومحطة الإطفاء، مع مشاهد النموذج والتوثيق المعماري التفصيلي."
+    },
+    {
+      "english": "Structural documentation for the Turtle Bay substructure, including coordinated plans, foundation details, schedules, and a three-dimensional model view.",
+      "arabic": "توثيق إنشائي للأعمال التحتية في Turtle Bay، يشمل المخططات المنسقة وتفاصيل الأساسات والجداول ومشهد النموذج ثلاثي الأبعاد."
+    },
+    {
+      "english": "An industrial drawing package covering the HCL tank farm and warehouse through plans, elevations, schedules, sections, and envelope details.",
+      "arabic": "حزمة رسومات صناعية لخزانات HCL والمستودع، تشمل المخططات والواجهات والجداول والقطاعات وتفاصيل الغلاف الخارجي."
+    },
+    {
+      "english": "Design presentation & documentation",
+      "arabic": "عرض التصميم والتوثيق"
+    },
+    {
+      "english": "Architectural & technical package",
+      "arabic": "الحزمة المعمارية والفنية"
+    },
+    {
+      "english": "Villa floor plans",
+      "arabic": "مخططات الفيلا"
+    },
+    {
+      "english": "Dining Facility",
+      "arabic": "منشأة الطعام"
+    },
+    {
+      "english": "Sports Center",
+      "arabic": "المركز الرياضي"
+    },
+    {
+      "english": "Worker Housing",
+      "arabic": "سكن العمال"
+    },
+    {
+      "english": "Fire Station",
+      "arabic": "محطة الإطفاء"
+    },
+    {
+      "english": "Substructure documentation",
+      "arabic": "توثيق الأعمال التحتية"
+    },
+    {
+      "english": "HCL Tank Farm",
+      "arabic": "خزانات HCL"
+    },
+    {
+      "english": "Warehouse",
+      "arabic": "المستودع"
+    },
+    {
+      "english": "Project cover",
+      "arabic": "غلاف المشروع"
+    },
+    {
+      "english": "images",
+      "arabic": "صور"
+    },
+    {
+      "english": "image",
+      "arabic": "صورة"
+    },
+    {
+      "english": "Project film",
+      "arabic": "فيلم المشروع"
+    },
+    {
+      "english": "See the design",
+      "arabic": "شاهد التصميم"
+    },
+    {
+      "english": "in motion.",
+      "arabic": "أثناء الحركة."
+    },
+    {
+      "english": "A concise visual presentation of the project concept, architectural language, and design development.",
+      "arabic": "عرض مرئي موجز لفكرة المشروع ولغته المعمارية وتطور التصميم."
+    },
+    {
+      "english": "Watch on YouTube",
+      "arabic": "المشاهدة على YouTube"
+    },
+    {
+      "english": "Project documentation",
+      "arabic": "توثيق المشروع"
+    },
+    {
+      "english": "Explore the",
+      "arabic": "استكشف"
+    },
+    {
+      "english": "complete set.",
+      "arabic": "المجموعة الكاملة."
+    },
+    {
+      "english": "Select any sheet to inspect it full screen. Use the arrows to move through the set, or open the original image in a separate tab.",
+      "arabic": "اختر أي لوحة لعرضها بملء الشاشة. استخدم الأسهم للتنقل بين اللوحات أو افتح الصورة الأصلية في علامة تبويب مستقلة."
+    },
+    {
+      "english": "Select a sheet",
+      "arabic": "اختر لوحة"
+    },
+    {
+      "english": "Browse with arrows",
+      "arabic": "تنقل بالأسهم"
+    },
+    {
+      "english": "Open the full image",
+      "arabic": "افتح الصورة الكاملة"
+    },
+    {
+      "english": "Portfolio language",
+      "arabic": "لغة الموقع"
+    },
+    {
+      "english": "العربية",
+      "arabic": "English"
+    }
+  ]
+}

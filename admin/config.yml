@@ -2,26 +2,129 @@ backend:
   name: github
   repo: alamerhh-arch/portfolio-website
   branch: content-editor
-  # GitHub token sign-in is enabled by default in Sveltia CMS.
+  auth_methods: [token]
 
 media_folder: assets/uploads
 public_folder: /portfolio-website/assets/uploads
-
 publish_mode: simple
 site_url: https://alamerhh-arch.github.io/portfolio-website/
 display_url: https://alamerhh-arch.github.io/portfolio-website/
 logo_url: /portfolio-website/favicon.svg
 
-# Temporary non-editable collection. Real collections will be added only
-# after the existing HTML and JavaScript content is migrated safely.
 collections:
-  - name: cms_setup
-    label: CMS Setup
-    folder: admin
-    create: false
-    extension: json
-    format: json
-    fields:
-      - label: Status
-        name: status
-        widget: string
+  - name: portfolio_content
+    label: Portfolio Content
+    files:
+      - name: projects
+        label: Projects
+        file: content/projects.json
+        format: json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            summary: '{{fields.order}} — {{fields.title}}'
+            fields:
+              - { label: Slug, name: slug, widget: string, hint: 'Lowercase URL identifier; do not change after publishing.' }
+              - { label: Order, name: order, widget: number, value_type: int, min: 1 }
+              - { label: Published, name: published, widget: boolean, default: true }
+              - { label: Show on homepage, name: home, widget: boolean, default: false }
+              - { label: Featured case study, name: featured, widget: boolean, default: false }
+              - { label: Case study pending, name: pending, widget: boolean, default: false }
+              - { label: Title, name: title, widget: string }
+              - { label: Short homepage title, name: homeTitle, widget: string, required: false }
+              - { label: Card label, name: label, widget: string }
+              - { label: Category, name: category, widget: string }
+              - { label: Project type, name: type, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Scope, name: scope, widget: string }
+              - { label: Stage, name: stage, widget: string }
+              - { label: Tools, name: tools, widget: string }
+              - { label: Summary, name: summary, widget: text }
+              - { label: Cover sheet number, name: cover, widget: number, value_type: int }
+              - { label: Card image or logo, name: coverImage, widget: image }
+              - { label: Detail page cover, name: detailCoverImage, widget: image }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - label: Filters
+                name: filters
+                widget: select
+                multiple: true
+                options: [architecture, bim, residential, hospitality, industrial]
+              - label: Video
+                name: video
+                widget: object
+                required: false
+                fields:
+                  - { label: YouTube ID, name: id, widget: string }
+                  - { label: Accessible title, name: title, widget: string }
+              - label: Gallery groups
+                name: groups
+                widget: list
+                fields:
+                  - { label: Group label, name: label, widget: string }
+                  - label: Gallery images
+                    name: images
+                    widget: list
+                    field: { label: Image, name: image, widget: image }
+
+      - name: certificates
+        label: Certificates
+        file: content/certificates.json
+        format: json
+        fields:
+          - label: Certificates
+            name: certificates
+            widget: list
+            summary: '{{fields.order}} — {{fields.title}}'
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Order, name: order, widget: number, value_type: int, min: 1 }
+              - { label: Published, name: published, widget: boolean, default: true }
+              - { label: Featured on homepage, name: featured, widget: boolean, default: false }
+              - { label: Title, name: title, widget: string }
+              - { label: Issuer, name: issuer, widget: string }
+              - { label: Group name, name: group, widget: string }
+              - label: Category
+                name: category
+                widget: select
+                options:
+                  - { label: Autodesk Training Center, value: autodesk }
+                  - { label: BIM Solutions, value: bim-solutions }
+                  - { label: Revizto, value: revizto }
+                  - { label: Saudi Building Code, value: sbc }
+              - { label: Certificate image, name: image, widget: image }
+              - { label: Alternative text, name: alt, widget: string }
+
+      - name: site_settings
+        label: Site settings and links
+        file: content/site.json
+        format: json
+        fields:
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Display phone, name: phone, widget: string }
+              - { label: Phone link, name: phoneLink, widget: string }
+              - { label: LinkedIn URL, name: linkedin, widget: string }
+              - { label: CV PDF, name: cv, widget: file }
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Site title, name: siteTitle, widget: string }
+              - { label: Description, name: description, widget: text }
+
+      - name: translations
+        label: Arabic / English translations
+        file: content/translations.json
+        format: json
+        fields:
+          - label: Translations
+            name: translations
+            widget: list
+            summary: '{{fields.english}}'
+            fields:
+              - { label: English text, name: english, widget: text }
+              - { label: Arabic text, name: arabic, widget: text }

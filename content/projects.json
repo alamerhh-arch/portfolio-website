@@ -1,0 +1,410 @@
+{
+  "projects": [
+    {
+      "slug": "neom-sports-village",
+      "title": "NEOM Sports Village",
+      "category": "Sports / Architecture & BIM",
+      "type": "Sports village",
+      "role": "Architectural BIM engineer",
+      "scope": "Multidisciplinary documentation",
+      "stage": "Detailed design",
+      "tools": "Revit · Navisworks · ACC",
+      "summary": "A detailed BIM documentation set covering the dining facility and sports center, with coordinated plans, elevations, sections, schedules, and construction details.",
+      "cover": 29,
+      "groups": [
+        {
+          "label": "Dining Facility",
+          "images": [
+            "assets/projects/neom-sports-village/01.webp",
+            "assets/projects/neom-sports-village/03.webp",
+            "assets/projects/neom-sports-village/08.webp",
+            "assets/projects/neom-sports-village/09.webp",
+            "assets/projects/neom-sports-village/17.webp"
+          ]
+        },
+        {
+          "label": "Sports Center",
+          "images": [
+            "assets/projects/neom-sports-village/29.webp",
+            "assets/projects/neom-sports-village/32.webp",
+            "assets/projects/neom-sports-village/35.webp",
+            "assets/projects/neom-sports-village/36.webp",
+            "assets/projects/neom-sports-village/43.webp"
+          ]
+        }
+      ],
+      "order": 1,
+      "home": true,
+      "featured": true,
+      "filters": [
+        "bim"
+      ],
+      "label": "Sports / BIM",
+      "logo": "assets/brand/neom-logo.webp",
+      "coverImage": "assets/brand/neom-logo.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/neom-sports-village/29.webp"
+    },
+    {
+      "slug": "qiddiya-worker-camps",
+      "title": "Qiddiya Worker Camps",
+      "category": "Residential program / BIM",
+      "type": "Worker accommodation",
+      "role": "Architectural BIM engineer",
+      "scope": "Architecture & coordination",
+      "stage": "Detailed design",
+      "tools": "Revit · Navisworks · ACC",
+      "summary": "A coordinated BIM package spanning worker housing, a dining facility, and a fire station, with model views and detailed architectural documentation.",
+      "cover": 14,
+      "groups": [
+        {
+          "label": "B01 — Worker Housing",
+          "images": [
+            "assets/projects/qiddiya-worker-camps/01.webp",
+            "assets/projects/qiddiya-worker-camps/06.webp",
+            "assets/projects/qiddiya-worker-camps/09.webp"
+          ]
+        },
+        {
+          "label": "B05 — Dining Facility",
+          "images": [
+            "assets/projects/qiddiya-worker-camps/14.webp",
+            "assets/projects/qiddiya-worker-camps/15.webp",
+            "assets/projects/qiddiya-worker-camps/18.webp",
+            "assets/projects/qiddiya-worker-camps/25.webp"
+          ]
+        },
+        {
+          "label": "B21 — Fire Station",
+          "images": [
+            "assets/projects/qiddiya-worker-camps/31.webp",
+            "assets/projects/qiddiya-worker-camps/37.webp",
+            "assets/projects/qiddiya-worker-camps/42.webp"
+          ]
+        }
+      ],
+      "order": 2,
+      "home": true,
+      "featured": true,
+      "filters": [
+        "bim",
+        "residential"
+      ],
+      "label": "Residential / BIM",
+      "logo": "assets/brand/qiddiya-logo.webp",
+      "coverImage": "assets/brand/qiddiya-logo.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/qiddiya-worker-camps/14.webp"
+    },
+    {
+      "slug": "red-sea-turtle-bay",
+      "title": "Red Sea — Turtle Bay Substructure",
+      "category": "Hospitality / Structural documentation",
+      "type": "Hospitality",
+      "role": "Structural BIM modeler",
+      "scope": "Substructure package",
+      "stage": "Technical documentation",
+      "tools": "Revit · Navisworks",
+      "summary": "Structural documentation for the Turtle Bay substructure, including coordinated plans, foundation details, schedules, and a three-dimensional model view.",
+      "cover": 8,
+      "groups": [
+        {
+          "label": "Substructure documentation",
+          "images": [
+            "assets/projects/red-sea-turtle-bay/02.webp",
+            "assets/projects/red-sea-turtle-bay/03.webp",
+            "assets/projects/red-sea-turtle-bay/04.webp",
+            "assets/projects/red-sea-turtle-bay/05.webp",
+            "assets/projects/red-sea-turtle-bay/06.webp",
+            "assets/projects/red-sea-turtle-bay/07.webp",
+            "assets/projects/red-sea-turtle-bay/08.webp",
+            "assets/projects/red-sea-turtle-bay/09.webp"
+          ]
+        }
+      ],
+      "order": 3,
+      "home": true,
+      "featured": true,
+      "filters": [
+        "hospitality"
+      ],
+      "label": "Hospitality / Structure",
+      "logo": "assets/brand/red-sea-global-logo.webp",
+      "coverImage": "assets/brand/red-sea-global-logo.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/red-sea-turtle-bay/08.webp"
+    },
+    {
+      "slug": "cultural-center-marlowe",
+      "title": "Cultural Center — Marlowe",
+      "category": "Cultural / Architectural redesign",
+      "type": "Cultural center",
+      "role": "Architectural designer",
+      "scope": "Design & documentation",
+      "stage": "Concept to detailed design",
+      "tools": "Revit · AutoCAD · Visualization",
+      "summary": "A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.",
+      "cover": 1,
+      "video": {
+        "id": "DwV8U7zahrY",
+        "title": "Cultural Center — Marlowe project presentation"
+      },
+      "groups": [
+        {
+          "label": "Design presentation & documentation",
+          "images": [
+            "assets/projects/cultural-center-marlowe/01.webp",
+            "assets/projects/cultural-center-marlowe/04.webp",
+            "assets/projects/cultural-center-marlowe/05.webp",
+            "assets/projects/cultural-center-marlowe/07.webp",
+            "assets/projects/cultural-center-marlowe/08.webp",
+            "assets/projects/cultural-center-marlowe/09.webp",
+            "assets/projects/cultural-center-marlowe/14.webp",
+            "assets/projects/cultural-center-marlowe/18.webp"
+          ]
+        }
+      ],
+      "order": 4,
+      "home": true,
+      "featured": false,
+      "filters": [
+        "architecture"
+      ],
+      "label": "Cultural / Redesign",
+      "coverImage": "assets/projects/cultural-center-marlowe/01.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/cultural-center-marlowe/01.webp"
+    },
+    {
+      "slug": "dammam-school",
+      "title": "Dammam School",
+      "category": "Education / Architecture",
+      "type": "Educational",
+      "role": "Architectural designer",
+      "scope": "Architecture & BIM",
+      "stage": "Design development",
+      "tools": "Revit · AutoCAD · Visualization",
+      "summary": "A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.",
+      "cover": 1,
+      "video": {
+        "id": "sTII2z1BTTU",
+        "title": "Dammam School project presentation"
+      },
+      "groups": [
+        {
+          "label": "Architectural & technical package",
+          "images": [
+            "assets/projects/dammam-school/01.webp",
+            "assets/projects/dammam-school/02.webp",
+            "assets/projects/dammam-school/03.webp",
+            "assets/projects/dammam-school/07.webp",
+            "assets/projects/dammam-school/08.webp",
+            "assets/projects/dammam-school/16.webp",
+            "assets/projects/dammam-school/24.webp",
+            "assets/projects/dammam-school/28.webp"
+          ]
+        }
+      ],
+      "order": 5,
+      "home": true,
+      "featured": false,
+      "filters": [
+        "architecture"
+      ],
+      "label": "Education / Architecture",
+      "coverImage": "assets/projects/dammam-school/01.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/dammam-school/01.webp"
+    },
+    {
+      "slug": "dr-sarah-villa",
+      "title": "Dr. Sarah Villa",
+      "category": "Residential / Design",
+      "type": "Private villa",
+      "role": "Architectural designer",
+      "scope": "Space planning",
+      "stage": "Concept design",
+      "tools": "AutoCAD · Visualization",
+      "summary": "Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.",
+      "cover": 1,
+      "video": {
+        "id": "3ffOgybiq6o",
+        "title": "Dr. Sarah Villa project presentation"
+      },
+      "groups": [
+        {
+          "label": "Villa floor plans",
+          "images": [
+            "assets/projects/dr-sarah-villa/01.webp",
+            "assets/projects/dr-sarah-villa/02.webp"
+          ]
+        }
+      ],
+      "order": 6,
+      "home": true,
+      "featured": false,
+      "filters": [
+        "residential"
+      ],
+      "label": "Residential / Design",
+      "coverImage": "assets/projects/dr-sarah-villa/01.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/dr-sarah-villa/01.webp"
+    },
+    {
+      "slug": "zain",
+      "title": "Zain — HCL Tank Farm & Warehouse",
+      "category": "Industrial / Documentation",
+      "type": "Industrial facility",
+      "role": "Architectural BIM engineer",
+      "scope": "Architectural documentation",
+      "stage": "Technical documentation",
+      "tools": "Revit · AutoCAD · ACC",
+      "summary": "An industrial drawing package covering the HCL tank farm and warehouse through plans, elevations, schedules, sections, and envelope details.",
+      "cover": 14,
+      "groups": [
+        {
+          "label": "HCL Tank Farm",
+          "images": [
+            "assets/projects/zain/01.webp",
+            "assets/projects/zain/02.webp",
+            "assets/projects/zain/04.webp",
+            "assets/projects/zain/05.webp"
+          ]
+        },
+        {
+          "label": "Warehouse",
+          "images": [
+            "assets/projects/zain/08.webp",
+            "assets/projects/zain/09.webp",
+            "assets/projects/zain/14.webp",
+            "assets/projects/zain/20.webp"
+          ]
+        }
+      ],
+      "order": 7,
+      "home": true,
+      "featured": false,
+      "filters": [
+        "industrial"
+      ],
+      "label": "Industrial / Documentation",
+      "logo": "assets/brand/zain-industries-logo.webp",
+      "homeTitle": "Zain — HCL & Warehouse",
+      "coverImage": "assets/brand/zain-industries-logo.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/zain/14.webp"
+    },
+    {
+      "slug": "taqa-modon",
+      "title": "TAQA — MODON New Facility",
+      "category": "Industrial / Architectural BIM",
+      "type": "Industrial facility",
+      "role": "Architectural BIM engineer",
+      "scope": "Architecture & BIM",
+      "stage": "Case study in preparation",
+      "tools": "Revit · BIM documentation",
+      "summary": "Industrial architectural BIM case study currently being prepared for publication.",
+      "cover": 1,
+      "groups": [],
+      "order": 8,
+      "home": true,
+      "featured": false,
+      "pending": true,
+      "filters": [
+        "bim",
+        "industrial"
+      ],
+      "label": "Industrial / Architectural BIM",
+      "coverImage": "favicon.svg",
+      "published": true,
+      "detailCoverImage": "favicon.svg"
+    },
+    {
+      "slug": "nesma-parking-building",
+      "title": "Nesma Parking Building — Al Khobar Business Park",
+      "category": "Commercial / Architectural documentation",
+      "type": "Multi-storey parking building",
+      "role": "Architectural BIM engineer",
+      "scope": "Architecture & technical documentation",
+      "stage": "Detailed design",
+      "tools": "Revit · AutoCAD · BIM documentation",
+      "summary": "A coordinated architectural package for the Nesma multi-storey parking building at Al Khobar Business Park, combining exterior visualization with site planning, floor plans, elevations, sections, and construction information.",
+      "cover": 1,
+      "groups": [
+        {
+          "label": "Architectural visualization",
+          "images": [
+            "assets/projects/nesma-parking-building/01.webp",
+            "assets/projects/nesma-parking-building/02.webp",
+            "assets/projects/nesma-parking-building/03.webp",
+            "assets/projects/nesma-parking-building/04.webp"
+          ]
+        },
+        {
+          "label": "Technical documentation",
+          "images": [
+            "assets/projects/nesma-parking-building/05.webp",
+            "assets/projects/nesma-parking-building/06.webp",
+            "assets/projects/nesma-parking-building/07.webp",
+            "assets/projects/nesma-parking-building/08.webp"
+          ]
+        }
+      ],
+      "order": 9,
+      "home": false,
+      "featured": false,
+      "filters": [
+        "architecture"
+      ],
+      "label": "Commercial / Architecture",
+      "logo": "assets/brand/nesma-logo.webp",
+      "coverImage": "assets/brand/nesma-logo.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/nesma-parking-building/01.webp"
+    },
+    {
+      "slug": "ebara-office-production",
+      "title": "EBARA — Office & Production Buildings",
+      "category": "Industrial / Architectural documentation",
+      "type": "Office and production facility",
+      "role": "Architectural BIM engineer",
+      "scope": "Architecture & technical documentation",
+      "stage": "Detailed design",
+      "tools": "Revit · AutoCAD · BIM documentation",
+      "summary": "A coordinated architectural documentation package for the EBARA office and production complex, covering floor plans, elevations, sections, wall assemblies, schedules, and building-envelope details.",
+      "cover": 1,
+      "groups": [
+        {
+          "label": "Office Building",
+          "images": [
+            "assets/projects/ebara-office-production/01.webp",
+            "assets/projects/ebara-office-production/02.webp",
+            "assets/projects/ebara-office-production/03.webp",
+            "assets/projects/ebara-office-production/04.webp"
+          ]
+        },
+        {
+          "label": "Production Building & Warehouse",
+          "images": [
+            "assets/projects/ebara-office-production/05.webp",
+            "assets/projects/ebara-office-production/06.webp",
+            "assets/projects/ebara-office-production/07.webp",
+            "assets/projects/ebara-office-production/08.webp"
+          ]
+        }
+      ],
+      "order": 10,
+      "home": false,
+      "featured": false,
+      "filters": [
+        "architecture",
+        "industrial"
+      ],
+      "label": "Industrial / Architecture",
+      "coverImage": "assets/projects/ebara-office-production/01.webp",
+      "published": true,
+      "detailCoverImage": "assets/projects/ebara-office-production/01.webp"
+    }
+  ]
+}

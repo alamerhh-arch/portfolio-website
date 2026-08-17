@@ -131,7 +131,15 @@
 
   const initial = localStorage.getItem(STORAGE_KEY) === 'ar' ? 'ar' : 'en';
   window.PortfolioI18n = { applyLanguage, language: () => document.documentElement.lang };
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      const response = await fetch('content/translations.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Translations request failed: ${response.status}`);
+      const data = await response.json();
+      data.translations.forEach(item => { if (item.english && item.arabic) arabic[item.english] = item.arabic; });
+    } catch (error) {
+      console.warn('Using embedded translation fallback.', error);
+    }
     applyLanguage(initial);
     document.addEventListener('click', event => {
       const button = event.target.closest('[data-language-toggle]');
