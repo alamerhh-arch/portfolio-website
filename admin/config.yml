@@ -23,7 +23,7 @@ collections:
           - label: Projects
             name: projects
             widget: list
-            summary: '{{fields.order}} — {{fields.title}}'
+            summary: '{{fields.order}} — {{fields.title_en}}'
             fields:
               - { label: Slug, name: slug, widget: string, hint: 'Lowercase URL identifier; do not change after publishing.' }
               - { label: Order, name: order, widget: number, value_type: int, min: 1 }
@@ -31,20 +31,33 @@ collections:
               - { label: Show on homepage, name: home, widget: boolean, default: false }
               - { label: Featured case study, name: featured, widget: boolean, default: false }
               - { label: Case study pending, name: pending, widget: boolean, default: false }
-              - { label: Title, name: title, widget: string }
-              - { label: Short homepage title, name: homeTitle, widget: string, required: false }
-              - { label: Card label, name: label, widget: string }
-              - { label: Category, name: category, widget: string }
-              - { label: Project type, name: type, widget: string }
-              - { label: Role, name: role, widget: string }
-              - { label: Scope, name: scope, widget: string }
-              - { label: Stage, name: stage, widget: string }
+              - { label: Title (English), name: title_en, widget: string }
+              - { label: العنوان (العربية), name: title_ar, widget: string }
+              - { label: Short homepage title (English), name: homeTitle_en, widget: string, required: false }
+              - { label: العنوان المختصر (العربية), name: homeTitle_ar, widget: string, required: false }
+              - { label: Card label (English), name: label_en, widget: string }
+              - { label: تصنيف البطاقة (العربية), name: label_ar, widget: string }
+              - { label: Category (English), name: category_en, widget: string }
+              - { label: الفئة (العربية), name: category_ar, widget: string }
+              - { label: Project type (English), name: type_en, widget: string }
+              - { label: نوع المشروع (العربية), name: type_ar, widget: string }
+              - { label: Role (English), name: role_en, widget: string }
+              - { label: الدور (العربية), name: role_ar, widget: string }
+              - { label: Scope (English), name: scope_en, widget: string }
+              - { label: النطاق (العربية), name: scope_ar, widget: string }
+              - { label: Stage (English), name: stage_en, widget: string }
+              - { label: المرحلة (العربية), name: stage_ar, widget: string }
               - { label: Tools, name: tools, widget: string }
-              - { label: Summary, name: summary, widget: text }
+              - { label: Summary (English), name: summary_en, widget: text }
+              - { label: الملخص (العربية), name: summary_ar, widget: text }
               - { label: Cover sheet number, name: cover, widget: number, value_type: int }
               - { label: Card image or logo, name: coverImage, widget: image }
               - { label: Detail page cover, name: detailCoverImage, widget: image }
               - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Card image width, name: coverWidth, widget: hidden, required: false }
+              - { label: Card image height, name: coverHeight, widget: hidden, required: false }
+              - { label: Detail image width, name: detailCoverWidth, widget: hidden, required: false }
+              - { label: Detail image height, name: detailCoverHeight, widget: hidden, required: false }
               - label: Filters
                 name: filters
                 widget: select
@@ -56,16 +69,23 @@ collections:
                 required: false
                 fields:
                   - { label: YouTube ID, name: id, widget: string }
-                  - { label: Accessible title, name: title, widget: string }
+                  - { label: Accessible title (English), name: title_en, widget: string }
+                  - { label: العنوان الوصفي (العربية), name: title_ar, widget: string }
               - label: Gallery groups
                 name: groups
                 widget: list
                 fields:
-                  - { label: Group label, name: label, widget: string }
+                  - { label: Group label (English), name: label_en, widget: string }
+                  - { label: اسم المجموعة (العربية), name: label_ar, widget: string }
                   - label: Gallery images
                     name: images
                     widget: list
-                    field: { label: Image, name: image, widget: image }
+                    fields:
+                      - { label: Image, name: src, widget: image }
+                      - { label: Alternative text (English), name: alt_en, widget: string }
+                      - { label: النص البديل (العربية), name: alt_ar, widget: string }
+                      - { label: Width, name: width, widget: hidden, required: false }
+                      - { label: Height, name: height, widget: hidden, required: false }
 
       - name: certificates
         label: Certificates
@@ -75,15 +95,18 @@ collections:
           - label: Certificates
             name: certificates
             widget: list
-            summary: '{{fields.order}} — {{fields.title}}'
+            summary: '{{fields.order}} — {{fields.title_en}}'
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Order, name: order, widget: number, value_type: int, min: 1 }
               - { label: Published, name: published, widget: boolean, default: true }
               - { label: Featured on homepage, name: featured, widget: boolean, default: false }
-              - { label: Title, name: title, widget: string }
-              - { label: Issuer, name: issuer, widget: string }
-              - { label: Group name, name: group, widget: string }
+              - { label: Title (English), name: title_en, widget: string }
+              - { label: العنوان (العربية), name: title_ar, widget: string }
+              - { label: Issuer (English), name: issuer_en, widget: string }
+              - { label: الجهة (العربية), name: issuer_ar, widget: string }
+              - { label: Group name (English), name: group_en, widget: string }
+              - { label: اسم المجموعة (العربية), name: group_ar, widget: string }
               - label: Category
                 name: category
                 widget: select
@@ -93,7 +116,10 @@ collections:
                   - { label: Revizto, value: revizto }
                   - { label: Saudi Building Code, value: sbc }
               - { label: Certificate image, name: image, widget: image }
-              - { label: Alternative text, name: alt, widget: string }
+              - { label: Alternative text (English), name: alt_en, widget: string }
+              - { label: النص البديل (العربية), name: alt_ar, widget: string }
+              - { label: Width, name: width, widget: hidden, required: false }
+              - { label: Height, name: height, widget: hidden, required: false }
 
       - name: site_settings
         label: Site settings and links
@@ -113,8 +139,10 @@ collections:
             name: seo
             widget: object
             fields:
-              - { label: Site title, name: siteTitle, widget: string }
-              - { label: Description, name: description, widget: text }
+              - { label: Site title (English), name: siteTitle_en, widget: string }
+              - { label: عنوان الموقع (العربية), name: siteTitle_ar, widget: string }
+              - { label: Description (English), name: description_en, widget: text }
+              - { label: الوصف (العربية), name: description_ar, widget: text }
 
       - name: translations
         label: Arabic / English translations

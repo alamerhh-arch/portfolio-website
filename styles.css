@@ -54,7 +54,7 @@ h1 em, h2 em { color: var(--accent); font-style: normal; }
 .hero-visual { position: relative; z-index: 1; align-self: center; aspect-ratio: 1/1; max-height: 620px; background: var(--ink); color: var(--white); overflow: hidden; }
 .hero-visual::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,.07), transparent 45%), radial-gradient(circle at 50% 50%, rgba(154,96,69,.18), transparent 38%); }
 .visual-label { position: absolute; top: 24px; left: 26px; z-index: 2; font: 600 9px var(--display); letter-spacing: .12em; text-transform: uppercase; color: #aeb5ae; }
-.orbit { position: absolute; inset: 50%; border: 1px solid rgba(255,255,255,.19); border-radius: 50%; transform: translate(-50%,-50%); }
+.orbit { position: absolute; top: 50%; left: 50%; right: auto; bottom: auto; border: 1px solid rgba(255,255,255,.19); border-radius: 50%; transform: translate(-50%,-50%); }
 .orbit-one { width: 68%; height: 68%; }
 .orbit-two { width: 43%; height: 43%; border-style: dashed; animation: rotate 28s linear infinite; }
 .coordination-core { position: absolute; left: 50%; top: 50%; width: 120px; height: 120px; transform: translate(-50%,-50%); display: grid; place-content: center; text-align: center; border-radius: 50%; background: var(--accent); color: var(--white); box-shadow: 0 0 60px rgba(154,96,69,.2); }
