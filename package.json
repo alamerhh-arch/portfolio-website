@@ -1,0 +1,14 @@
+{
+  "name": "ahmed-alamer-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/check-content.mjs",
+    "test": "node scripts/build-site.mjs && node scripts/check-content.mjs && node scripts/test-site.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.1.2",
+    "image-size": "2.0.2"
+  }
+}

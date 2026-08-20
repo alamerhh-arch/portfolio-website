@@ -7,7 +7,9 @@
     "cv": "assets/documents/ahmed-alamer-cv.pdf"
   },
   "seo": {
-    "siteTitle": "Ahmed Alamer | Architectural BIM Engineer",
-    "description": "Architectural BIM Engineer portfolio covering coordinated design, BIM delivery, technical documentation, and Saudi Building Code practice."
+    "siteTitle_en": "Ahmed Alamer | Architectural BIM Engineer",
+    "siteTitle_ar": "أحمد العامر | مهندس نمذجة معلومات مبانٍ معماري",
+    "description_en": "Architectural BIM Engineer portfolio covering coordinated design, BIM delivery, technical documentation, and Saudi Building Code practice.",
+    "description_ar": "ملف أحمد العامر المهني في الهندسة المعمارية ونمذجة معلومات المباني والتنسيق والتوثيق الفني."
   }
 }

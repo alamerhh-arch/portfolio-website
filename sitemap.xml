@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://alamerhh-arch.github.io/portfolio-website/</loc><priority>1.0</priority></url>
   <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects.html</loc><priority>0.9</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=cultural-center-marlowe</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=dammam-school</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=dr-sarah-villa</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=neom-sports-village</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=qiddiya-worker-camps</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=red-sea-turtle-bay</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=nesma-parking-building</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=ebara-office-production</loc><priority>0.8</priority></url>
-  <url><loc>https://alamerhh-arch.github.io/portfolio-website/project.html?id=zain</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/neom-sports-village/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/qiddiya-worker-camps/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/red-sea-turtle-bay/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/cultural-center-marlowe/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/dammam-school/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/dr-sarah-villa/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/zain/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/nesma-parking-building/</loc><priority>0.8</priority></url>
+  <url><loc>https://alamerhh-arch.github.io/portfolio-website/projects/ebara-office-production/</loc><priority>0.8</priority></url>
   <url><loc>https://alamerhh-arch.github.io/portfolio-website/certificates.html</loc><priority>0.8</priority></url>
 </urlset>

@@ -1,0 +1,39 @@
+name: Build CMS content
+
+on:
+  push:
+    branches: [content-editor]
+    paths:
+      - 'content/**'
+      - 'assets/uploads/**'
+      - 'assets/projects/**'
+      - 'assets/certificates/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content-editor
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - name: Commit generated pages
+        run: |
+          if git diff --quiet; then
+            echo "Generated pages are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html projects.html certificates.html project.html projects sitemap.xml
+          git commit -m "build: regenerate site from CMS content"
+          git push origin content-editor
