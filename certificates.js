@@ -20,7 +20,7 @@
     title.textContent = card.querySelector('h3').textContent;
     issuer.textContent = card.querySelector('.certificate-copy > span').textContent;
     position.textContent = `${String(active + 1).padStart(2, '0')} / ${String(visible.length).padStart(2, '0')}`;
-    original.href = card.href;
+    if (original) original.href = card.href;
   };
   filters.forEach(button => button.addEventListener('click', () => {
     const category = button.dataset.certificateFilter;

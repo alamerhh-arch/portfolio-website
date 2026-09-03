@@ -1284,6 +1284,26 @@ html[dir="rtl"] .visual-label { left: auto; right: 26px; }
 }
 
 img { height: auto; }
+
+/* A transparent interaction layer discourages casual copying without changing the artwork. */
+.protected-image-surface {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.protected-image-surface::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: transparent;
+  pointer-events: none;
+}
+.protected-image-surface img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
 .home-project-thumb img,
 .gallery-cover img,
 .certificate-preview img,

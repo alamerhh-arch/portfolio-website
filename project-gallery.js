@@ -15,7 +15,7 @@
     image.src = card.dataset.imageSrc;
     image.alt = text;
     caption.textContent = `${String(active + 1).padStart(2, '0')} / ${String(cards.length).padStart(2, '0')} — ${text}`;
-    original.href = card.dataset.imageSrc;
+    if (original) original.href = card.dataset.imageSrc;
   };
   cards.forEach((card, index) => card.addEventListener('click', () => { if (!dialog?.showModal) return; returnFocus = card; update(index); dialog.showModal(); }));
   dialog?.querySelector('[data-lightbox-close]')?.addEventListener('click', () => dialog.close());
