@@ -47,15 +47,16 @@ function buildIndex() {
   $('.home-project-featured-grid').html(home.filter(item => item.featured).map(item => cardProject(item, true)).join('\n'));
   $('.home-project-compact-grid').html(home.filter(item => !item.featured).map(item => cardProject(item, true)).join('\n'));
   $('.certificate-showcase-grid').html(certificates.filter(item => item.featured).slice(0, 8).map(item => cardCertificate(item, 'Open certificate', true)).join('\n'));
-  const socialProject = home.find(item => item.featured && !item.pending) || home.find(item => !item.pending);
-  const socialImage = `${baseUrl}/${socialProject.detailCoverImage}`;
-  const socialSize = dimensions(socialProject.detailCoverImage, { width: socialProject.detailCoverWidth, height: socialProject.detailCoverHeight });
+  const socialCard = 'assets/social/bim-coordination-card.webp';
+  const socialImage = `${baseUrl}/${socialCard}`;
+  const socialSize = dimensions(socialCard, { width: 1200, height: 630 });
   $('meta[property="og:image"]').attr('content', socialImage);
-  $('meta[property="og:image:alt"]').attr('content', `${socialProject.title_en} — selected work by Ahmed Alamer`);
+  $('meta[property="og:image:alt"]').attr('content', 'BIM coordination diagram — Ahmed Alamer portfolio');
   ensureMeta($, 'property', 'og:image:width', String(socialSize.width));
   ensureMeta($, 'property', 'og:image:height', String(socialSize.height));
+  ensureMeta($, 'property', 'og:image:type', 'image/webp');
   $('meta[name="twitter:image"]').attr('content', socialImage);
-  ensureMeta($, 'name', 'twitter:image:alt', `${socialProject.title_en} — selected work by Ahmed Alamer`);
+  ensureMeta($, 'name', 'twitter:image:alt', 'BIM coordination diagram — Ahmed Alamer portfolio');
   patchSite($);
   write('index.html', $.html());
 }

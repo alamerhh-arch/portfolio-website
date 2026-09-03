@@ -5,6 +5,7 @@ import { load } from 'cheerio';
 const root = process.cwd();
 const pages = ['index.html', 'projects.html', 'certificates.html', ...fs.readdirSync('projects', { withFileTypes: true }).filter(entry => entry.isDirectory()).map(entry => `projects/${entry.name}/index.html`)];
 const expectedStyleVersion = '42';
+const expectedHomeSocialImage = 'https://alamerhh-arch.github.io/portfolio-website/assets/social/bim-coordination-card.webp';
 const failures = [];
 const isExternal = value => /^(https?:|mailto:|tel:|#)/.test(value);
 for (const page of pages) {
@@ -36,6 +37,12 @@ for (const page of pages) {
   if (!$('meta[property="og:image:width"]').length || !$('meta[property="og:image:height"]').length || !$('meta[property="og:image:alt"]').length) failures.push(`${page}: incomplete social image metadata`);
   $('script[type="application/ld+json"]').each((_, node) => { try { JSON.parse($(node).text()); } catch { failures.push(`${page}: invalid JSON-LD`); } });
   $('[data-content-en]').each((_, node) => { if (!$(node).attr('data-content-ar')) failures.push(`${page}: bilingual field missing Arabic value`); });
+}
+{
+  const $ = load(fs.readFileSync(path.join(root, 'index.html'), 'utf8'));
+  if ($('meta[property="og:image"]').attr('content') !== expectedHomeSocialImage) failures.push('index.html: homepage social preview must use the BIM coordination card');
+  if ($('meta[name="twitter:image"]').attr('content') !== expectedHomeSocialImage) failures.push('index.html: Twitter preview must use the BIM coordination card');
+  if ($('meta[property="og:image:width"]').attr('content') !== '1200' || $('meta[property="og:image:height"]').attr('content') !== '630') failures.push('index.html: BIM social card must be 1200x630');
 }
 const css = fs.readFileSync(path.join(root, 'styles.css'), 'utf8');
 for (const query of ['@media (max-width: 960px)', '@media (max-width: 680px)']) if (!css.includes(query)) failures.push(`styles.css: missing responsive breakpoint ${query}`);
