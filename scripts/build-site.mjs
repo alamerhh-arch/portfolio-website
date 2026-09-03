@@ -5,7 +5,7 @@ import sizeOf from 'image-size';
 
 const root = process.cwd();
 const baseUrl = 'https://alamerhh-arch.github.io/portfolio-website';
-const assetVersion = '41';
+const assetVersion = '42';
 const readJson = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const projects = readJson('content/projects.json').projects.filter(item => item.published !== false).sort((a, b) => a.order - b.order);
 const certificates = readJson('content/certificates.json').certificates.filter(item => item.published !== false).sort((a, b) => a.order - b.order);
@@ -100,6 +100,7 @@ function buildCertificates() {
 
 function patchSite($) {
   $('link[rel="stylesheet"][href^="styles.css?v="]').attr('href', `styles.css?v=${assetVersion}`);
+  if (!$('script[src^="image-protection.js"]').length) $('body').append('<script src="image-protection.js?v=1"></script>');
   $('a[href^="mailto:"]').attr('href', `mailto:${site.contact.email}`);
   $('a[href^="tel:"]').attr('href', `tel:${site.contact.phoneLink}`);
   $('a[href*="linkedin.com"]').attr('href', site.contact.linkedin);
@@ -158,7 +159,7 @@ function buildProject(project) {
     $('[data-project-video]').attr({ src: `https://www.youtube-nocookie.com/embed/${project.video.id}`, title: project.video.title_en, 'data-title-en': project.video.title_en, 'data-title-ar': project.video.title_ar || project.video.title_en });
     $('[data-project-video-link]').attr('href', `https://youtu.be/${project.video.id}`);
   } else $('[data-project-video-section]').remove();
-  $('script[src^="projects.js"]').attr('src', 'project-gallery.js?v=1');
+  $('script[src^="projects.js"]').attr('src', 'project-gallery.js?v=2');
   patchSite($);
   write(`projects/${project.slug}/index.html`, $.html());
 }

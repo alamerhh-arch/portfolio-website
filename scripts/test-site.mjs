@@ -4,7 +4,7 @@ import { load } from 'cheerio';
 
 const root = process.cwd();
 const pages = ['index.html', 'projects.html', 'certificates.html', ...fs.readdirSync('projects', { withFileTypes: true }).filter(entry => entry.isDirectory()).map(entry => `projects/${entry.name}/index.html`)];
-const expectedStyleVersion = '41';
+const expectedStyleVersion = '42';
 const failures = [];
 const isExternal = value => /^(https?:|mailto:|tel:|#)/.test(value);
 for (const page of pages) {
@@ -30,6 +30,7 @@ for (const page of pages) {
     if (!image.attr('decoding')) failures.push(`${page}: missing decoding policy for ${src}`);
   });
   if (!$('meta[name="viewport"]').length) failures.push(`${page}: missing mobile viewport`);
+  if ($('script[src="image-protection.js?v=1"]').length !== 1) failures.push(`${page}: missing image protection layer`);
   if ($('link[rel="stylesheet"][href="styles.css?v=' + expectedStyleVersion + '"]').length !== 1) failures.push(`${page}: stale or missing stylesheet cache version`);
   if (!$('link[rel="canonical"]').length) failures.push(`${page}: missing canonical URL`);
   if (!$('meta[property="og:image:width"]').length || !$('meta[property="og:image:height"]').length || !$('meta[property="og:image:alt"]').length) failures.push(`${page}: incomplete social image metadata`);
@@ -39,6 +40,7 @@ for (const page of pages) {
 const css = fs.readFileSync(path.join(root, 'styles.css'), 'utf8');
 for (const query of ['@media (max-width: 960px)', '@media (max-width: 680px)']) if (!css.includes(query)) failures.push(`styles.css: missing responsive breakpoint ${query}`);
 if (!css.includes(':focus-visible')) failures.push('styles.css: missing visible keyboard focus styling');
+if (!css.includes('.protected-image-surface::after')) failures.push('styles.css: missing protected image overlay');
 if (/\.orbit\s*\{[^}]*inset\s*:\s*50%/s.test(css)) failures.push('styles.css: orbit centering must use physical top/left coordinates so RTL cannot move it');
 if (!/\.orbit\s*\{[^}]*top\s*:\s*50%[^}]*left\s*:\s*50%/s.test(css)) failures.push('styles.css: orbit centering coordinates are missing');
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }
