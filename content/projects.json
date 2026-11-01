@@ -2,34 +2,89 @@
   "projects": [
     {
       "slug": "neom-sports-village",
-      "title": "NEOM Sports Village",
-      "category": "Sports / Architecture & BIM",
-      "type": "Sports village",
-      "role": "Architectural BIM engineer",
-      "scope": "Multidisciplinary documentation",
-      "stage": "Detailed design",
       "tools": "Revit · Navisworks · ACC",
-      "summary": "A detailed BIM documentation set covering the dining facility and sports center, with coordinated plans, elevations, sections, schedules, and construction details.",
       "cover": 29,
       "groups": [
         {
-          "label": "Dining Facility",
+          "label_en": "Dining Facility",
+          "label_ar": "منشأة الطعام",
           "images": [
-            "assets/projects/neom-sports-village/01.webp",
-            "assets/projects/neom-sports-village/03.webp",
-            "assets/projects/neom-sports-village/08.webp",
-            "assets/projects/neom-sports-village/09.webp",
-            "assets/projects/neom-sports-village/17.webp"
+            {
+              "src": "assets/projects/neom-sports-village/01.webp",
+              "width": 2000,
+              "height": 1609,
+              "alt_en": "NEOM Sports Village — Dining Facility — image 1",
+              "alt_ar": "قرية نيوم الرياضية — منشأة الطعام — صورة 1"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/03.webp",
+              "width": 2000,
+              "height": 1611,
+              "alt_en": "NEOM Sports Village — Dining Facility — image 2",
+              "alt_ar": "قرية نيوم الرياضية — منشأة الطعام — صورة 2"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/08.webp",
+              "width": 2000,
+              "height": 1609,
+              "alt_en": "NEOM Sports Village — Dining Facility — image 3",
+              "alt_ar": "قرية نيوم الرياضية — منشأة الطعام — صورة 3"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/09.webp",
+              "width": 2000,
+              "height": 1625,
+              "alt_en": "NEOM Sports Village — Dining Facility — image 4",
+              "alt_ar": "قرية نيوم الرياضية — منشأة الطعام — صورة 4"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/17.webp",
+              "width": 2000,
+              "height": 1612,
+              "alt_en": "NEOM Sports Village — Dining Facility — image 5",
+              "alt_ar": "قرية نيوم الرياضية — منشأة الطعام — صورة 5"
+            }
           ]
         },
         {
-          "label": "Sports Center",
+          "label_en": "Sports Center",
+          "label_ar": "المركز الرياضي",
           "images": [
-            "assets/projects/neom-sports-village/29.webp",
-            "assets/projects/neom-sports-village/32.webp",
-            "assets/projects/neom-sports-village/35.webp",
-            "assets/projects/neom-sports-village/36.webp",
-            "assets/projects/neom-sports-village/43.webp"
+            {
+              "src": "assets/projects/neom-sports-village/29.webp",
+              "width": 2000,
+              "height": 1607,
+              "alt_en": "NEOM Sports Village — Sports Center — image 1",
+              "alt_ar": "قرية نيوم الرياضية — المركز الرياضي — صورة 1"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/32.webp",
+              "width": 2000,
+              "height": 1605,
+              "alt_en": "NEOM Sports Village — Sports Center — image 2",
+              "alt_ar": "قرية نيوم الرياضية — المركز الرياضي — صورة 2"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/35.webp",
+              "width": 2000,
+              "height": 1610,
+              "alt_en": "NEOM Sports Village — Sports Center — image 3",
+              "alt_ar": "قرية نيوم الرياضية — المركز الرياضي — صورة 3"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/36.webp",
+              "width": 2000,
+              "height": 1610,
+              "alt_en": "NEOM Sports Village — Sports Center — image 4",
+              "alt_ar": "قرية نيوم الرياضية — المركز الرياضي — صورة 4"
+            },
+            {
+              "src": "assets/projects/neom-sports-village/43.webp",
+              "width": 2000,
+              "height": 1610,
+              "alt_en": "NEOM Sports Village — Sports Center — image 5",
+              "alt_ar": "قرية نيوم الرياضية — المركز الرياضي — صورة 5"
+            }
           ]
         }
       ],
@@ -39,47 +94,122 @@
       "filters": [
         "bim"
       ],
-      "label": "Sports / BIM",
       "logo": "assets/brand/neom-logo.webp",
       "coverImage": "assets/brand/neom-logo.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/neom-sports-village/29.webp"
+      "detailCoverImage": "assets/projects/neom-sports-village/29.webp",
+      "title_en": "NEOM Sports Village",
+      "title_ar": "قرية نيوم الرياضية",
+      "label_en": "Sports / BIM",
+      "label_ar": "رياضي / BIM",
+      "category_en": "Sports / Architecture & BIM",
+      "category_ar": "رياضي / عمارة وBIM",
+      "type_en": "Sports village",
+      "type_ar": "قرية رياضية",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Multidisciplinary documentation",
+      "scope_ar": "توثيق متعدد التخصصات",
+      "stage_en": "Detailed design",
+      "stage_ar": "التصميم التفصيلي",
+      "summary_en": "A detailed BIM documentation set covering the dining facility and sports center, with coordinated plans, elevations, sections, schedules, and construction details.",
+      "summary_ar": "مجموعة توثيق BIM تفصيلية لمنشأة الطعام والمركز الرياضي، وتشمل مخططات وواجهات وقطاعات وجداول وتفاصيل تنفيذية منسقة.",
+      "coverWidth": 724,
+      "coverHeight": 592,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1607
     },
     {
       "slug": "qiddiya-worker-camps",
-      "title": "Qiddiya Worker Camps",
-      "category": "Residential program / BIM",
-      "type": "Worker accommodation",
-      "role": "Architectural BIM engineer",
-      "scope": "Architecture & coordination",
-      "stage": "Detailed design",
       "tools": "Revit · Navisworks · ACC",
-      "summary": "A coordinated BIM package spanning worker housing, a dining facility, and a fire station, with model views and detailed architectural documentation.",
       "cover": 14,
       "groups": [
         {
-          "label": "B01 — Worker Housing",
+          "label_en": "B01 — Worker Housing",
+          "label_ar": "B01 — Worker Housing",
           "images": [
-            "assets/projects/qiddiya-worker-camps/01.webp",
-            "assets/projects/qiddiya-worker-camps/06.webp",
-            "assets/projects/qiddiya-worker-camps/09.webp"
+            {
+              "src": "assets/projects/qiddiya-worker-camps/01.webp",
+              "width": 2000,
+              "height": 1612,
+              "alt_en": "Qiddiya Worker Camps — B01 — Worker Housing — image 1",
+              "alt_ar": "مجمعات سكن عمال القدية — B01 — Worker Housing — صورة 1"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/06.webp",
+              "width": 1800,
+              "height": 1444,
+              "alt_en": "Qiddiya Worker Camps — B01 — Worker Housing — image 2",
+              "alt_ar": "مجمعات سكن عمال القدية — B01 — Worker Housing — صورة 2"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/09.webp",
+              "width": 2000,
+              "height": 1600,
+              "alt_en": "Qiddiya Worker Camps — B01 — Worker Housing — image 3",
+              "alt_ar": "مجمعات سكن عمال القدية — B01 — Worker Housing — صورة 3"
+            }
           ]
         },
         {
-          "label": "B05 — Dining Facility",
+          "label_en": "B05 — Dining Facility",
+          "label_ar": "B05 — Dining Facility",
           "images": [
-            "assets/projects/qiddiya-worker-camps/14.webp",
-            "assets/projects/qiddiya-worker-camps/15.webp",
-            "assets/projects/qiddiya-worker-camps/18.webp",
-            "assets/projects/qiddiya-worker-camps/25.webp"
+            {
+              "src": "assets/projects/qiddiya-worker-camps/14.webp",
+              "width": 1861,
+              "height": 1149,
+              "alt_en": "Qiddiya Worker Camps — B05 — Dining Facility — image 1",
+              "alt_ar": "مجمعات سكن عمال القدية — B05 — Dining Facility — صورة 1"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/15.webp",
+              "width": 2000,
+              "height": 1612,
+              "alt_en": "Qiddiya Worker Camps — B05 — Dining Facility — image 2",
+              "alt_ar": "مجمعات سكن عمال القدية — B05 — Dining Facility — صورة 2"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/18.webp",
+              "width": 2000,
+              "height": 1611,
+              "alt_en": "Qiddiya Worker Camps — B05 — Dining Facility — image 3",
+              "alt_ar": "مجمعات سكن عمال القدية — B05 — Dining Facility — صورة 3"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/25.webp",
+              "width": 2000,
+              "height": 1605,
+              "alt_en": "Qiddiya Worker Camps — B05 — Dining Facility — image 4",
+              "alt_ar": "مجمعات سكن عمال القدية — B05 — Dining Facility — صورة 4"
+            }
           ]
         },
         {
-          "label": "B21 — Fire Station",
+          "label_en": "B21 — Fire Station",
+          "label_ar": "B21 — Fire Station",
           "images": [
-            "assets/projects/qiddiya-worker-camps/31.webp",
-            "assets/projects/qiddiya-worker-camps/37.webp",
-            "assets/projects/qiddiya-worker-camps/42.webp"
+            {
+              "src": "assets/projects/qiddiya-worker-camps/31.webp",
+              "width": 2000,
+              "height": 1601,
+              "alt_en": "Qiddiya Worker Camps — B21 — Fire Station — image 1",
+              "alt_ar": "مجمعات سكن عمال القدية — B21 — Fire Station — صورة 1"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/37.webp",
+              "width": 2000,
+              "height": 1591,
+              "alt_en": "Qiddiya Worker Camps — B21 — Fire Station — image 2",
+              "alt_ar": "مجمعات سكن عمال القدية — B21 — Fire Station — صورة 2"
+            },
+            {
+              "src": "assets/projects/qiddiya-worker-camps/42.webp",
+              "width": 2000,
+              "height": 1609,
+              "alt_en": "Qiddiya Worker Camps — B21 — Fire Station — image 3",
+              "alt_ar": "مجمعات سكن عمال القدية — B21 — Fire Station — صورة 3"
+            }
           ]
         }
       ],
@@ -90,35 +220,96 @@
         "bim",
         "residential"
       ],
-      "label": "Residential / BIM",
       "logo": "assets/brand/qiddiya-logo.webp",
       "coverImage": "assets/brand/qiddiya-logo.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/qiddiya-worker-camps/14.webp"
+      "detailCoverImage": "assets/projects/qiddiya-worker-camps/14.webp",
+      "title_en": "Qiddiya Worker Camps",
+      "title_ar": "مجمعات سكن عمال القدية",
+      "label_en": "Residential / BIM",
+      "label_ar": "سكني / BIM",
+      "category_en": "Residential program / BIM",
+      "category_ar": "سكني / BIM",
+      "type_en": "Worker accommodation",
+      "type_ar": "سكن عمال",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Architecture & coordination",
+      "scope_ar": "العمارة والتنسيق",
+      "stage_en": "Detailed design",
+      "stage_ar": "التصميم التفصيلي",
+      "summary_en": "A coordinated BIM package spanning worker housing, a dining facility, and a fire station, with model views and detailed architectural documentation.",
+      "summary_ar": "حزمة BIM منسقة تشمل سكن العمال ومنشأة الطعام ومحطة الإطفاء، مع مشاهد النموذج والتوثيق المعماري التفصيلي.",
+      "coverWidth": 724,
+      "coverHeight": 592,
+      "detailCoverWidth": 1861,
+      "detailCoverHeight": 1149
     },
     {
       "slug": "red-sea-turtle-bay",
-      "title": "Red Sea — Turtle Bay Substructure",
-      "category": "Hospitality / Structural documentation",
-      "type": "Hospitality",
-      "role": "Structural BIM modeler",
-      "scope": "Substructure package",
-      "stage": "Technical documentation",
       "tools": "Revit · Navisworks",
-      "summary": "Structural documentation for the Turtle Bay substructure, including coordinated plans, foundation details, schedules, and a three-dimensional model view.",
       "cover": 8,
       "groups": [
         {
-          "label": "Substructure documentation",
+          "label_en": "Substructure documentation",
+          "label_ar": "توثيق الأعمال التحتية",
           "images": [
-            "assets/projects/red-sea-turtle-bay/02.webp",
-            "assets/projects/red-sea-turtle-bay/03.webp",
-            "assets/projects/red-sea-turtle-bay/04.webp",
-            "assets/projects/red-sea-turtle-bay/05.webp",
-            "assets/projects/red-sea-turtle-bay/06.webp",
-            "assets/projects/red-sea-turtle-bay/07.webp",
-            "assets/projects/red-sea-turtle-bay/08.webp",
-            "assets/projects/red-sea-turtle-bay/09.webp"
+            {
+              "src": "assets/projects/red-sea-turtle-bay/02.webp",
+              "width": 2000,
+              "height": 1534,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 1",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 1"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/03.webp",
+              "width": 2000,
+              "height": 1558,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 2",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 2"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/04.webp",
+              "width": 2000,
+              "height": 1532,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 3",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 3"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/05.webp",
+              "width": 2000,
+              "height": 1540,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 4",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 4"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/06.webp",
+              "width": 2000,
+              "height": 1541,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 5",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 5"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/07.webp",
+              "width": 1800,
+              "height": 1359,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 6",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 6"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/08.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 7",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 7"
+            },
+            {
+              "src": "assets/projects/red-sea-turtle-bay/09.webp",
+              "width": 2000,
+              "height": 1528,
+              "alt_en": "Red Sea — Turtle Bay Substructure — Substructure documentation — image 8",
+              "alt_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي — توثيق الأعمال التحتية — صورة 8"
+            }
           ]
         }
       ],
@@ -128,39 +319,101 @@
       "filters": [
         "hospitality"
       ],
-      "label": "Hospitality / Structure",
       "logo": "assets/brand/red-sea-global-logo.webp",
       "coverImage": "assets/brand/red-sea-global-logo.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/red-sea-turtle-bay/08.webp"
+      "detailCoverImage": "assets/projects/red-sea-turtle-bay/08.webp",
+      "title_en": "Red Sea — Turtle Bay Substructure",
+      "title_ar": "البحر الأحمر — الأعمال التحتية في ترتل باي",
+      "label_en": "Hospitality / Structure",
+      "label_ar": "ضيافة / إنشائي",
+      "category_en": "Hospitality / Structural documentation",
+      "category_ar": "ضيافة / توثيق إنشائي",
+      "type_en": "Hospitality",
+      "type_ar": "ضيافة",
+      "role_en": "Structural BIM modeler",
+      "role_ar": "نمذجة BIM إنشائية",
+      "scope_en": "Substructure package",
+      "scope_ar": "حزمة الأعمال التحتية",
+      "stage_en": "Technical documentation",
+      "stage_ar": "التوثيق الفني",
+      "summary_en": "Structural documentation for the Turtle Bay substructure, including coordinated plans, foundation details, schedules, and a three-dimensional model view.",
+      "summary_ar": "توثيق إنشائي للأعمال التحتية في Turtle Bay، يشمل المخططات المنسقة وتفاصيل الأساسات والجداول ومشهد النموذج ثلاثي الأبعاد.",
+      "coverWidth": 724,
+      "coverHeight": 592,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1415
     },
     {
       "slug": "cultural-center-marlowe",
-      "title": "Cultural Center — Marlowe",
-      "category": "Cultural / Architectural redesign",
-      "type": "Cultural center",
-      "role": "Architectural designer",
-      "scope": "Design & documentation",
-      "stage": "Concept to detailed design",
       "tools": "Revit · AutoCAD · Visualization",
-      "summary": "A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.",
       "cover": 1,
       "video": {
         "id": "DwV8U7zahrY",
-        "title": "Cultural Center — Marlowe project presentation"
+        "title_en": "Cultural Center — Marlowe project presentation",
+        "title_ar": "Cultural Center — Marlowe project presentation"
       },
       "groups": [
         {
-          "label": "Design presentation & documentation",
+          "label_en": "Design presentation & documentation",
+          "label_ar": "عرض التصميم والتوثيق",
           "images": [
-            "assets/projects/cultural-center-marlowe/01.webp",
-            "assets/projects/cultural-center-marlowe/04.webp",
-            "assets/projects/cultural-center-marlowe/05.webp",
-            "assets/projects/cultural-center-marlowe/07.webp",
-            "assets/projects/cultural-center-marlowe/08.webp",
-            "assets/projects/cultural-center-marlowe/09.webp",
-            "assets/projects/cultural-center-marlowe/14.webp",
-            "assets/projects/cultural-center-marlowe/18.webp"
+            {
+              "src": "assets/projects/cultural-center-marlowe/01.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 1",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 1"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/04.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 2",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 2"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/05.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 3",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 3"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/07.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 4",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 4"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/08.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 5",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 5"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/09.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 6",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 6"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/14.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 7",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 7"
+            },
+            {
+              "src": "assets/projects/cultural-center-marlowe/18.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Cultural Center — Marlowe — Design presentation & documentation — image 8",
+              "alt_ar": "المركز الثقافي — مارلو — عرض التصميم والتوثيق — صورة 8"
+            }
           ]
         }
       ],
@@ -170,38 +423,100 @@
       "filters": [
         "architecture"
       ],
-      "label": "Cultural / Redesign",
       "coverImage": "assets/projects/cultural-center-marlowe/01.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/cultural-center-marlowe/01.webp"
+      "detailCoverImage": "assets/projects/cultural-center-marlowe/01.webp",
+      "title_en": "Cultural Center — Marlowe",
+      "title_ar": "المركز الثقافي — مارلو",
+      "label_en": "Cultural / Redesign",
+      "label_ar": "ثقافي / إعادة تصميم",
+      "category_en": "Cultural / Architectural redesign",
+      "category_ar": "ثقافي / إعادة تصميم معماري",
+      "type_en": "Cultural center",
+      "type_ar": "Cultural center",
+      "role_en": "Architectural designer",
+      "role_ar": "مصمم معماري",
+      "scope_en": "Design & documentation",
+      "scope_ar": "التصميم والتوثيق",
+      "stage_en": "Concept to detailed design",
+      "stage_ar": "من الفكرة إلى التصميم التفصيلي",
+      "summary_en": "A cultural center redesign presented through architectural concept imagery, plans, elevations, sections, and detailed construction information.",
+      "summary_ar": "إعادة تصميم مركز ثقافي معروضة من خلال صور الفكرة المعمارية والمخططات والواجهات والقطاعات ومعلومات التنفيذ التفصيلية.",
+      "coverWidth": 2000,
+      "coverHeight": 1415,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1415
     },
     {
       "slug": "dammam-school",
-      "title": "Dammam School",
-      "category": "Education / Architecture",
-      "type": "Educational",
-      "role": "Architectural designer",
-      "scope": "Architecture & BIM",
-      "stage": "Design development",
       "tools": "Revit · AutoCAD · Visualization",
-      "summary": "A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.",
       "cover": 1,
       "video": {
         "id": "sTII2z1BTTU",
-        "title": "Dammam School project presentation"
+        "title_en": "Dammam School project presentation",
+        "title_ar": "Dammam School project presentation"
       },
       "groups": [
         {
-          "label": "Architectural & technical package",
+          "label_en": "Architectural & technical package",
+          "label_ar": "الحزمة المعمارية والفنية",
           "images": [
-            "assets/projects/dammam-school/01.webp",
-            "assets/projects/dammam-school/02.webp",
-            "assets/projects/dammam-school/03.webp",
-            "assets/projects/dammam-school/07.webp",
-            "assets/projects/dammam-school/08.webp",
-            "assets/projects/dammam-school/16.webp",
-            "assets/projects/dammam-school/24.webp",
-            "assets/projects/dammam-school/28.webp"
+            {
+              "src": "assets/projects/dammam-school/01.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 1",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 1"
+            },
+            {
+              "src": "assets/projects/dammam-school/02.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 2",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 2"
+            },
+            {
+              "src": "assets/projects/dammam-school/03.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 3",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 3"
+            },
+            {
+              "src": "assets/projects/dammam-school/07.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 4",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 4"
+            },
+            {
+              "src": "assets/projects/dammam-school/08.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 5",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 5"
+            },
+            {
+              "src": "assets/projects/dammam-school/16.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 6",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 6"
+            },
+            {
+              "src": "assets/projects/dammam-school/24.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 7",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 7"
+            },
+            {
+              "src": "assets/projects/dammam-school/28.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "Dammam School — Architectural & technical package — image 8",
+              "alt_ar": "مدرسة الدمام — الحزمة المعمارية والفنية — صورة 8"
+            }
           ]
         }
       ],
@@ -211,32 +526,58 @@
       "filters": [
         "architecture"
       ],
-      "label": "Education / Architecture",
       "coverImage": "assets/projects/dammam-school/01.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/dammam-school/01.webp"
+      "detailCoverImage": "assets/projects/dammam-school/01.webp",
+      "title_en": "Dammam School",
+      "title_ar": "مدرسة الدمام",
+      "label_en": "Education / Architecture",
+      "label_ar": "تعليمي / عمارة",
+      "category_en": "Education / Architecture",
+      "category_ar": "تعليمي / عمارة",
+      "type_en": "Educational",
+      "type_ar": "تعليمي",
+      "role_en": "Architectural designer",
+      "role_ar": "مصمم معماري",
+      "scope_en": "Architecture & BIM",
+      "scope_ar": "العمارة وBIM",
+      "stage_en": "Design development",
+      "stage_ar": "تطوير التصميم",
+      "summary_en": "A coordinated school design package combining architectural visualization, plans, elevations, structural information, details, and environmental studies.",
+      "summary_ar": "حزمة تصميم مدرسة منسقة تجمع الإظهار المعماري والمخططات والواجهات والمعلومات الإنشائية والتفاصيل والدراسات البيئية.",
+      "coverWidth": 2000,
+      "coverHeight": 1415,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1415
     },
     {
       "slug": "dr-sarah-villa",
-      "title": "Dr. Sarah Villa",
-      "category": "Residential / Design",
-      "type": "Private villa",
-      "role": "Architectural designer",
-      "scope": "Space planning",
-      "stage": "Concept design",
       "tools": "AutoCAD · Visualization",
-      "summary": "Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.",
       "cover": 1,
       "video": {
         "id": "3ffOgybiq6o",
-        "title": "Dr. Sarah Villa project presentation"
+        "title_en": "Dr. Sarah Villa project presentation",
+        "title_ar": "Dr. Sarah Villa project presentation"
       },
       "groups": [
         {
-          "label": "Villa floor plans",
+          "label_en": "Villa floor plans",
+          "label_ar": "مخططات الفيلا",
           "images": [
-            "assets/projects/dr-sarah-villa/01.webp",
-            "assets/projects/dr-sarah-villa/02.webp"
+            {
+              "src": "assets/projects/dr-sarah-villa/01.webp",
+              "width": 1800,
+              "height": 1429,
+              "alt_en": "Dr. Sarah Villa — Villa floor plans — image 1",
+              "alt_ar": "فيلا د. سارة — مخططات الفيلا — صورة 1"
+            },
+            {
+              "src": "assets/projects/dr-sarah-villa/02.webp",
+              "width": 1827,
+              "height": 1172,
+              "alt_en": "Dr. Sarah Villa — Villa floor plans — image 2",
+              "alt_ar": "فيلا د. سارة — مخططات الفيلا — صورة 2"
+            }
           ]
         }
       ],
@@ -246,39 +587,101 @@
       "filters": [
         "residential"
       ],
-      "label": "Residential / Design",
       "coverImage": "assets/projects/dr-sarah-villa/01.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/dr-sarah-villa/01.webp"
+      "detailCoverImage": "assets/projects/dr-sarah-villa/01.webp",
+      "title_en": "Dr. Sarah Villa",
+      "title_ar": "فيلا د. سارة",
+      "label_en": "Residential / Design",
+      "label_ar": "سكني / تصميم",
+      "category_en": "Residential / Design",
+      "category_ar": "سكني / تصميم",
+      "type_en": "Private villa",
+      "type_ar": "فيلا خاصة",
+      "role_en": "Architectural designer",
+      "role_ar": "مصمم معماري",
+      "scope_en": "Space planning",
+      "scope_ar": "تخطيط الفراغات",
+      "stage_en": "Concept design",
+      "stage_ar": "التصميم المفاهيمي",
+      "summary_en": "Residential space planning developed through clear, furnished floor plans that communicate circulation, zoning, and room relationships.",
+      "summary_ar": "تخطيط فراغي سكني مطور من خلال مساقط مفروشة وواضحة تشرح الحركة والتوزيع والعلاقات بين الغرف.",
+      "coverWidth": 1800,
+      "coverHeight": 1429,
+      "detailCoverWidth": 1800,
+      "detailCoverHeight": 1429
     },
     {
       "slug": "zain",
-      "title": "Zain — HCL Tank Farm & Warehouse",
-      "category": "Industrial / Documentation",
-      "type": "Industrial facility",
-      "role": "Architectural BIM engineer",
-      "scope": "Architectural documentation",
-      "stage": "Technical documentation",
       "tools": "Revit · AutoCAD · ACC",
-      "summary": "An industrial drawing package covering the HCL tank farm and warehouse through plans, elevations, schedules, sections, and envelope details.",
       "cover": 14,
       "groups": [
         {
-          "label": "HCL Tank Farm",
+          "label_en": "HCL Tank Farm",
+          "label_ar": "خزانات HCL",
           "images": [
-            "assets/projects/zain/01.webp",
-            "assets/projects/zain/02.webp",
-            "assets/projects/zain/04.webp",
-            "assets/projects/zain/05.webp"
+            {
+              "src": "assets/projects/zain/01.webp",
+              "width": 2000,
+              "height": 1671,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — HCL Tank Farm — image 1",
+              "alt_ar": "زين — خزانات HCL والمستودع — خزانات HCL — صورة 1"
+            },
+            {
+              "src": "assets/projects/zain/02.webp",
+              "width": 2000,
+              "height": 1669,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — HCL Tank Farm — image 2",
+              "alt_ar": "زين — خزانات HCL والمستودع — خزانات HCL — صورة 2"
+            },
+            {
+              "src": "assets/projects/zain/04.webp",
+              "width": 2000,
+              "height": 1664,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — HCL Tank Farm — image 3",
+              "alt_ar": "زين — خزانات HCL والمستودع — خزانات HCL — صورة 3"
+            },
+            {
+              "src": "assets/projects/zain/05.webp",
+              "width": 2000,
+              "height": 1667,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — HCL Tank Farm — image 4",
+              "alt_ar": "زين — خزانات HCL والمستودع — خزانات HCL — صورة 4"
+            }
           ]
         },
         {
-          "label": "Warehouse",
+          "label_en": "Warehouse",
+          "label_ar": "المستودع",
           "images": [
-            "assets/projects/zain/08.webp",
-            "assets/projects/zain/09.webp",
-            "assets/projects/zain/14.webp",
-            "assets/projects/zain/20.webp"
+            {
+              "src": "assets/projects/zain/08.webp",
+              "width": 2000,
+              "height": 1676,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — Warehouse — image 1",
+              "alt_ar": "زين — خزانات HCL والمستودع — المستودع — صورة 1"
+            },
+            {
+              "src": "assets/projects/zain/09.webp",
+              "width": 1800,
+              "height": 1493,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — Warehouse — image 2",
+              "alt_ar": "زين — خزانات HCL والمستودع — المستودع — صورة 2"
+            },
+            {
+              "src": "assets/projects/zain/14.webp",
+              "width": 2000,
+              "height": 1656,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — Warehouse — image 3",
+              "alt_ar": "زين — خزانات HCL والمستودع — المستودع — صورة 3"
+            },
+            {
+              "src": "assets/projects/zain/20.webp",
+              "width": 2000,
+              "height": 1671,
+              "alt_en": "Zain — HCL Tank Farm & Warehouse — Warehouse — image 4",
+              "alt_ar": "زين — خزانات HCL والمستودع — المستودع — صورة 4"
+            }
           ]
         }
       ],
@@ -288,23 +691,36 @@
       "filters": [
         "industrial"
       ],
-      "label": "Industrial / Documentation",
       "logo": "assets/brand/zain-industries-logo.webp",
-      "homeTitle": "Zain — HCL & Warehouse",
       "coverImage": "assets/brand/zain-industries-logo.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/zain/14.webp"
+      "detailCoverImage": "assets/projects/zain/14.webp",
+      "title_en": "Zain — HCL Tank Farm & Warehouse",
+      "title_ar": "زين — خزانات HCL والمستودع",
+      "homeTitle_en": "Zain — HCL & Warehouse",
+      "homeTitle_ar": "زين — خزانات HCL والمستودع",
+      "label_en": "Industrial / Documentation",
+      "label_ar": "صناعي / توثيق",
+      "category_en": "Industrial / Documentation",
+      "category_ar": "صناعي / توثيق",
+      "type_en": "Industrial facility",
+      "type_ar": "منشأة صناعية",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Architectural documentation",
+      "scope_ar": "التوثيق المعماري",
+      "stage_en": "Technical documentation",
+      "stage_ar": "التوثيق الفني",
+      "summary_en": "An industrial drawing package covering the HCL tank farm and warehouse through plans, elevations, schedules, sections, and envelope details.",
+      "summary_ar": "حزمة رسومات صناعية لخزانات HCL والمستودع، تشمل المخططات والواجهات والجداول والقطاعات وتفاصيل الغلاف الخارجي.",
+      "coverWidth": 724,
+      "coverHeight": 592,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1656
     },
     {
       "slug": "taqa-modon",
-      "title": "TAQA — MODON New Facility",
-      "category": "Industrial / Architectural BIM",
-      "type": "Industrial facility",
-      "role": "Architectural BIM engineer",
-      "scope": "Architecture & BIM",
-      "stage": "Case study in preparation",
       "tools": "Revit · BIM documentation",
-      "summary": "Industrial architectural BIM case study currently being prepared for publication.",
       "cover": 1,
       "groups": [],
       "order": 8,
@@ -315,39 +731,101 @@
         "bim",
         "industrial"
       ],
-      "label": "Industrial / Architectural BIM",
       "coverImage": "favicon.svg",
       "published": true,
-      "detailCoverImage": "favicon.svg"
+      "detailCoverImage": "favicon.svg",
+      "title_en": "TAQA — MODON New Facility",
+      "title_ar": "طاقة — منشأة مدن الجديدة",
+      "label_en": "Industrial / Architectural BIM",
+      "label_ar": "صناعي / BIM معماري",
+      "category_en": "Industrial / Architectural BIM",
+      "category_ar": "صناعي / BIM معماري",
+      "type_en": "Industrial facility",
+      "type_ar": "منشأة صناعية",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Architecture & BIM",
+      "scope_ar": "العمارة وBIM",
+      "stage_en": "Case study in preparation",
+      "stage_ar": "دراسة الحالة قيد الإعداد",
+      "summary_en": "Industrial architectural BIM case study currently being prepared for publication.",
+      "summary_ar": "Industrial architectural BIM case study currently being prepared for publication.",
+      "coverWidth": 1,
+      "coverHeight": 1,
+      "detailCoverWidth": 1,
+      "detailCoverHeight": 1
     },
     {
       "slug": "nesma-parking-building",
-      "title": "Nesma Parking Building — Al Khobar Business Park",
-      "category": "Commercial / Architectural documentation",
-      "type": "Multi-storey parking building",
-      "role": "Architectural BIM engineer",
-      "scope": "Architecture & technical documentation",
-      "stage": "Detailed design",
       "tools": "Revit · AutoCAD · BIM documentation",
-      "summary": "A coordinated architectural package for the Nesma multi-storey parking building at Al Khobar Business Park, combining exterior visualization with site planning, floor plans, elevations, sections, and construction information.",
       "cover": 1,
       "groups": [
         {
-          "label": "Architectural visualization",
+          "label_en": "Architectural visualization",
+          "label_ar": "Architectural visualization",
           "images": [
-            "assets/projects/nesma-parking-building/01.webp",
-            "assets/projects/nesma-parking-building/02.webp",
-            "assets/projects/nesma-parking-building/03.webp",
-            "assets/projects/nesma-parking-building/04.webp"
+            {
+              "src": "assets/projects/nesma-parking-building/01.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Architectural visualization — image 1",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — Architectural visualization — صورة 1"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/02.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Architectural visualization — image 2",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — Architectural visualization — صورة 2"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/03.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Architectural visualization — image 3",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — Architectural visualization — صورة 3"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/04.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Architectural visualization — image 4",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — Architectural visualization — صورة 4"
+            }
           ]
         },
         {
-          "label": "Technical documentation",
+          "label_en": "Technical documentation",
+          "label_ar": "التوثيق الفني",
           "images": [
-            "assets/projects/nesma-parking-building/05.webp",
-            "assets/projects/nesma-parking-building/06.webp",
-            "assets/projects/nesma-parking-building/07.webp",
-            "assets/projects/nesma-parking-building/08.webp"
+            {
+              "src": "assets/projects/nesma-parking-building/05.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Technical documentation — image 1",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — التوثيق الفني — صورة 1"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/06.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Technical documentation — image 2",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — التوثيق الفني — صورة 2"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/07.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Technical documentation — image 3",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — التوثيق الفني — صورة 3"
+            },
+            {
+              "src": "assets/projects/nesma-parking-building/08.webp",
+              "width": 2000,
+              "height": 1571,
+              "alt_en": "Nesma Parking Building — Al Khobar Business Park — Technical documentation — image 4",
+              "alt_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال — التوثيق الفني — صورة 4"
+            }
           ]
         }
       ],
@@ -357,40 +835,102 @@
       "filters": [
         "architecture"
       ],
-      "label": "Commercial / Architecture",
       "logo": "assets/brand/nesma-logo.webp",
       "coverImage": "assets/brand/nesma-logo.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/nesma-parking-building/01.webp"
+      "detailCoverImage": "assets/projects/nesma-parking-building/01.webp",
+      "title_en": "Nesma Parking Building — Al Khobar Business Park",
+      "title_ar": "مبنى مواقف نسما — مجمع الخبر للأعمال",
+      "label_en": "Commercial / Architecture",
+      "label_ar": "تجاري / توثيق معماري",
+      "category_en": "Commercial / Architectural documentation",
+      "category_ar": "تجاري / توثيق معماري",
+      "type_en": "Multi-storey parking building",
+      "type_ar": "Multi-storey parking building",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Architecture & technical documentation",
+      "scope_ar": "Architecture & technical documentation",
+      "stage_en": "Detailed design",
+      "stage_ar": "التصميم التفصيلي",
+      "summary_en": "A coordinated architectural package for the Nesma multi-storey parking building at Al Khobar Business Park, combining exterior visualization with site planning, floor plans, elevations, sections, and construction information.",
+      "summary_ar": "A coordinated architectural package for the Nesma multi-storey parking building at Al Khobar Business Park, combining exterior visualization with site planning, floor plans, elevations, sections, and construction information.",
+      "coverWidth": 2000,
+      "coverHeight": 1000,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1571
     },
     {
       "slug": "ebara-office-production",
-      "title": "EBARA — Office & Production Buildings",
-      "category": "Industrial / Architectural documentation",
-      "type": "Office and production facility",
-      "role": "Architectural BIM engineer",
-      "scope": "Architecture & technical documentation",
-      "stage": "Detailed design",
       "tools": "Revit · AutoCAD · BIM documentation",
-      "summary": "A coordinated architectural documentation package for the EBARA office and production complex, covering floor plans, elevations, sections, wall assemblies, schedules, and building-envelope details.",
       "cover": 1,
       "groups": [
         {
-          "label": "Office Building",
+          "label_en": "Office Building",
+          "label_ar": "Office Building",
           "images": [
-            "assets/projects/ebara-office-production/01.webp",
-            "assets/projects/ebara-office-production/02.webp",
-            "assets/projects/ebara-office-production/03.webp",
-            "assets/projects/ebara-office-production/04.webp"
+            {
+              "src": "assets/projects/ebara-office-production/01.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Office Building — image 1",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Office Building — صورة 1"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/02.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Office Building — image 2",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Office Building — صورة 2"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/03.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Office Building — image 3",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Office Building — صورة 3"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/04.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Office Building — image 4",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Office Building — صورة 4"
+            }
           ]
         },
         {
-          "label": "Production Building & Warehouse",
+          "label_en": "Production Building & Warehouse",
+          "label_ar": "Production Building & Warehouse",
           "images": [
-            "assets/projects/ebara-office-production/05.webp",
-            "assets/projects/ebara-office-production/06.webp",
-            "assets/projects/ebara-office-production/07.webp",
-            "assets/projects/ebara-office-production/08.webp"
+            {
+              "src": "assets/projects/ebara-office-production/05.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Production Building & Warehouse — image 1",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Production Building & Warehouse — صورة 1"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/06.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Production Building & Warehouse — image 2",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Production Building & Warehouse — صورة 2"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/07.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Production Building & Warehouse — image 3",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Production Building & Warehouse — صورة 3"
+            },
+            {
+              "src": "assets/projects/ebara-office-production/08.webp",
+              "width": 2000,
+              "height": 1415,
+              "alt_en": "EBARA — Office & Production Buildings — Production Building & Warehouse — image 4",
+              "alt_ar": "إيبارا — مباني المكاتب والإنتاج — Production Building & Warehouse — صورة 4"
+            }
           ]
         }
       ],
@@ -401,10 +941,29 @@
         "architecture",
         "industrial"
       ],
-      "label": "Industrial / Architecture",
       "coverImage": "assets/projects/ebara-office-production/01.webp",
       "published": true,
-      "detailCoverImage": "assets/projects/ebara-office-production/01.webp"
+      "detailCoverImage": "assets/projects/ebara-office-production/01.webp",
+      "title_en": "EBARA — Office & Production Buildings",
+      "title_ar": "إيبارا — مباني المكاتب والإنتاج",
+      "label_en": "Industrial / Architecture",
+      "label_ar": "صناعي / توثيق معماري",
+      "category_en": "Industrial / Architectural documentation",
+      "category_ar": "صناعي / توثيق معماري",
+      "type_en": "Office and production facility",
+      "type_ar": "Office and production facility",
+      "role_en": "Architectural BIM engineer",
+      "role_ar": "مهندس BIM معماري",
+      "scope_en": "Architecture & technical documentation",
+      "scope_ar": "Architecture & technical documentation",
+      "stage_en": "Detailed design",
+      "stage_ar": "التصميم التفصيلي",
+      "summary_en": "A coordinated architectural documentation package for the EBARA office and production complex, covering floor plans, elevations, sections, wall assemblies, schedules, and building-envelope details.",
+      "summary_ar": "A coordinated architectural documentation package for the EBARA office and production complex, covering floor plans, elevations, sections, wall assemblies, schedules, and building-envelope details.",
+      "coverWidth": 2000,
+      "coverHeight": 1415,
+      "detailCoverWidth": 2000,
+      "detailCoverHeight": 1415
     }
   ]
 }
