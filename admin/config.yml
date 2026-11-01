@@ -95,29 +95,32 @@ collections:
           - label: Certificates
             name: certificates
             widget: list
+            required: false
             summary: '{{fields.order}} — {{fields.title_en}}'
             fields:
-              - { label: ID, name: id, widget: string }
-              - { label: Order, name: order, widget: number, value_type: int, min: 1 }
-              - { label: Published, name: published, widget: boolean, default: true }
-              - { label: Featured on homepage, name: featured, widget: boolean, default: false }
-              - { label: Title (English), name: title_en, widget: string }
-              - { label: العنوان (العربية), name: title_ar, widget: string }
-              - { label: Issuer (English), name: issuer_en, widget: string }
-              - { label: الجهة (العربية), name: issuer_ar, widget: string }
-              - { label: Group name (English), name: group_en, widget: string }
-              - { label: اسم المجموعة (العربية), name: group_ar, widget: string }
+              - { label: ID, name: id, widget: string, required: false }
+              - { label: Order, name: order, widget: number, value_type: int, min: 1, required: false }
+              - { label: Published, name: published, widget: boolean, default: true, required: false }
+              - { label: Featured on homepage, name: featured, widget: boolean, default: false, required: false }
+              - { label: Title (English), name: title_en, widget: string, required: false }
+              - { label: العنوان (العربية), name: title_ar, widget: string, required: false }
+              - { label: Issuer (English), name: issuer_en, widget: string, required: false }
+              - { label: الجهة (العربية), name: issuer_ar, widget: string, required: false }
+              - { label: Group name (English), name: group_en, widget: string, required: false }
+              - { label: اسم المجموعة (العربية), name: group_ar, widget: string, required: false }
               - label: Category
                 name: category
                 widget: select
+                required: false
                 options:
                   - { label: Autodesk Training Center, value: autodesk }
                   - { label: BIM Solutions, value: bim-solutions }
                   - { label: Revizto, value: revizto }
                   - { label: Saudi Building Code, value: sbc }
-              - { label: Certificate image, name: image, widget: image }
-              - { label: Alternative text (English), name: alt_en, widget: string }
-              - { label: النص البديل (العربية), name: alt_ar, widget: string }
+                  - { label: Other certificates, value: other }
+              - { label: Certificate image, name: image, widget: image, required: false }
+              - { label: Alternative text (English), name: alt_en, widget: string, required: false }
+              - { label: النص البديل (العربية), name: alt_ar, widget: string, required: false }
               - { label: Width, name: width, widget: hidden, required: false }
               - { label: Height, name: height, widget: hidden, required: false }
 

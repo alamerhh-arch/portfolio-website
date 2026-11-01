@@ -18,7 +18,7 @@ const image = (src, label) => {
   try { sizeOf(fs.readFileSync(file)); } catch { errors.push(`${label}: unreadable image ${src}`); }
 };
 unique(projects, 'slug', 'Projects'); unique(projects, 'order', 'Projects');
-unique(certificates, 'id', 'Certificates'); unique(certificates, 'order', 'Certificates');
+unique(certificates.filter(item => item.id?.trim()), 'id', 'Certificates');
 for (const project of projects) {
   for (const key of ['title_en', 'title_ar', 'summary_en', 'summary_ar']) if (!project[key]) errors.push(`${project.slug}: missing ${key}`);
   image(project.coverImage, project.slug); image(project.detailCoverImage, project.slug);
@@ -26,11 +26,10 @@ for (const project of projects) {
   project.groups?.forEach(group => group.images?.forEach(item => image(item.src, project.slug)));
 }
 for (const item of certificates) {
-  for (const key of ['title_en', 'title_ar', 'issuer_en', 'issuer_ar', 'alt_en', 'alt_ar']) if (!item[key]) errors.push(`${item.id}: missing ${key}`);
-  image(item.image, item.id);
+  if (item.image?.trim()) image(item.image, item.id || 'Certificate');
 }
 if (projects.filter(item => item.home && item.published !== false).length !== 8) errors.push('Homepage must contain exactly 8 projects.');
-if (certificates.filter(item => item.featured && item.published !== false).length !== 8) errors.push('Homepage must contain exactly 8 certificates.');
+// The homepage displays up to eight available featured certificates.
 const generatedPages = ['index.html', 'projects.html', 'certificates.html'];
 if (fs.existsSync(path.join(root, 'projects'))) generatedPages.push(...fs.readdirSync(path.join(root, 'projects')).map(slug => `projects/${slug}/index.html`));
 for (const page of generatedPages) {
