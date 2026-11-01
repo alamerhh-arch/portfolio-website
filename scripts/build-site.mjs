@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { load } from 'cheerio';
 import sizeOf from 'image-size';
+import { visibleCertificates } from './certificates.mjs';
 
 const root = process.cwd();
 const baseUrl = 'https://alamerhh-arch.github.io/portfolio-website';
 const assetVersion = '42';
 const readJson = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const projects = readJson('content/projects.json').projects.filter(item => item.published !== false).sort((a, b) => a.order - b.order);
-const certificates = readJson('content/certificates.json').certificates.filter(item => item.published !== false).sort((a, b) => a.order - b.order);
+const certificates = visibleCertificates(readJson('content/certificates.json').certificates);
 const site = readJson('content/site.json');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const attrs = (en, ar) => `data-content-en="${esc(en)}" data-content-ar="${esc(ar || en)}"`;
@@ -39,7 +40,7 @@ const cardProject = (project, homepage = false) => {
   return `<a class="home-project-card${project.featured ? ' home-project-featured' : ''} reveal" href="projects/${esc(project.slug)}/"><div class="home-project-thumb${project.logo ? ' home-project-thumb-logo' : ''}">${image}<span>${String(project.order).padStart(2, '0')}</span></div><div class="home-project-copy"><span ${attrs(project.label_en, project.label_ar)}>${esc(project.label_en)}</span><h3 ${attrs(titleEn, titleAr)}>${esc(titleEn)}</h3>${project.featured ? `<p ${attrs(project.summary_en, project.summary_ar)}>${esc(project.summary_en)}</p>` : ''}<b>${project.featured ? 'View case study' : 'View project'} <i>↗</i></b></div></a>`;
 };
 
-const cardCertificate = (item, action, reveal = false) => `<a class="certificate-card${reveal ? ' reveal' : ''}" data-certificate-card data-category="${esc(item.category)}" href="${esc(item.image)}" target="_blank" rel="noopener noreferrer"><div class="certificate-preview">${imageTag({ src: item.image, en: item.alt_en, ar: item.alt_ar, fallback: item })}</div><div class="certificate-copy"><span ${attrs(item.issuer_en, item.issuer_ar)}>${esc(item.issuer_en)}</span><h3 ${attrs(item.title_en, item.title_ar)}>${esc(item.title_en)}</h3><b>${action} <span>↗</span></b></div></a>`;
+const cardCertificate = (item, action, reveal = false) => `<a class="certificate-card${reveal ? ' reveal' : ''}" data-certificate-card data-category="${esc(item.category)}" href="${esc(item.image)}" target="_blank" rel="noopener noreferrer"><div class="certificate-preview">${imageTag({ src: item.image, en: item.alt_en, ar: item.alt_ar, fallback: item })}</div><div class="certificate-copy">${item.issuer_en ? `<span ${attrs(item.issuer_en, item.issuer_ar)}>${esc(item.issuer_en)}</span>` : ''}<h3 ${attrs(item.title_en, item.title_ar)}>${esc(item.title_en)}</h3><b>${action} <span>↗</span></b></div></a>`;
 
 function buildIndex() {
   const $ = load(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), { decodeEntities: false });
@@ -94,7 +95,8 @@ function buildCertificates() {
   $('.certificates-index-intro div').eq(0).find('strong').text(String(certificates.length));
   $('.certificates-index-intro div').eq(1).find('strong').text(String(categories.length).padStart(2, '0'));
   const socialCertificate = certificates.find(item => item.featured) || certificates[0];
-  patchSocialImage($, socialCertificate.image, `${socialCertificate.title_en} certificate earned by Ahmed Alamer`, socialCertificate);
+  if (socialCertificate) patchSocialImage($, socialCertificate.image, `${socialCertificate.title_en} certificate earned by Ahmed Alamer`, socialCertificate);
+  else patchSocialImage($, 'assets/social/bim-coordination-card.webp', 'Ahmed Alamer portfolio');
   patchSite($);
   write('certificates.html', $.html());
 }

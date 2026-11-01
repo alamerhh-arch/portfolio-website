@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build-site.mjs",
     "check": "node scripts/check-content.mjs",
-    "test": "node scripts/build-site.mjs && node scripts/check-content.mjs && node scripts/test-site.mjs"
+    "test": "node scripts/test-certificates.mjs && node scripts/build-site.mjs && node scripts/check-content.mjs && node scripts/test-site.mjs"
   },
   "dependencies": {
     "cheerio": "1.1.2",
