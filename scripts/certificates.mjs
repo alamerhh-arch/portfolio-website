@@ -1,6 +1,7 @@
 // Normalize display data without overwriting the editor's optional fields.
 const text = (...values) => values.find(value => typeof value === 'string' && value.trim())?.trim() || '';
 const groups = {
+  pmi: ['Project Management Institute (PMI)', 'معهد إدارة المشاريع (PMI)'],
   autodesk: ['Autodesk Training Center', 'مركز Autodesk للتدريب'],
   'bim-solutions': ['BIM Solutions', 'BIM Solutions'],
   revizto: ['Revizto', 'Revizto'],
