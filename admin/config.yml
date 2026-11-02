@@ -117,6 +117,7 @@ collections:
                   - { label: BIM Solutions, value: bim-solutions }
                   - { label: Revizto, value: revizto }
                   - { label: Saudi Building Code, value: sbc }
+                  - { label: Project Management Institute (PMI), value: pmi }
                   - { label: Other certificates, value: other }
               - { label: Certificate image, name: image, widget: image, required: false }
               - { label: Alternative text (English), name: alt_en, widget: string, required: false }
